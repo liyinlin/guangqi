@@ -1,0 +1,222 @@
+.main{
+	width: 100%;
+}
+.main .top_title{
+	width: 100%;
+	font-size: 22px;
+	overflow:  hidden;
+	margin-top: 1px;
+	border-top:1px solid #EDEDED ;
+	border-bottom:1px solid #EDEDED ;
+}
+.top_title .name{
+	margin-left: 20px;
+	height: 40px;
+	color: #666666;
+	line-height: 40px;
+}
+.main .user_box{
+	width: 100%;
+	overflow: hidden;
+}
+.main .list{
+	width: 540px;
+	overflow: hidden;
+	margin: 20px auto 0px;
+}
+.main .list>div{
+	width: 100%;
+	height: 50px;
+}
+.main .list>div span,
+.main .list>div input,select{
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	font-size: 26px;
+	float: left;
+}
+.main .list>div select{
+	height: 42px;
+	width: 404px;
+}
+.main .list>div span{
+	width: 135px;
+	color: #333;
+}
+.main .list>div input{
+	width: 400px;
+}
+.main .list .name input{
+	width: 200px;
+}
+.main .list>div input[type='radio']{
+	display: none;
+}
+.main .list .name,.sex{
+	float: left;
+}
+.main .list .sex>div{
+	float: left;
+	margin-left: 15px;
+	font-size: 18px;
+	line-height: 40px;
+	color: #888;
+}
+.main .list .sex>div>img{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -4px;
+}
+.car_list{
+	width: 540px;
+	overflow: hidden;
+	margin: 10px auto;
+	text-align: center;
+}
+.car_list .remind{
+	color: #e50020;
+	font-size:20px;
+}
+.main .second_title{
+	color: #666666;
+	width: 100%;
+	height: 40px;
+	border-top:1px solid #EDEDED ;
+	border-bottom:1px solid #EDEDED ;
+	overflow: hidden;
+}
+.second_title .name{
+	color: #333;
+	height: 40px;
+	line-height: 40px;
+	font-size:22px;
+	float: left;
+	margin-left: 15px;
+}
+.second_title .right_name{
+	color: #e50020;
+	line-height: 40px;
+	margin-right:15px;
+	font-size:22px;
+	float: right;
+}
+.main .list_carInfo{
+	width: 100%;
+	padding-bottom: 70px;
+	overflow: hidden;
+}
+.main .list_carInfo1{
+	padding-bottom:222px;
+}
+.main .list_carInfo>div{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: -4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	border-bottom:1px solid #EDEDED;
+}
+.main .list_carInfo>div>div{
+	width: 552px;
+	margin-left:70px;
+	overflow: hidden;
+}
+.main .list_carInfo>div>div:nth-child(1)>span,
+.main .list_carInfo>div>div:nth-child(3)>span{
+	display: block;
+}
+.main .list_carInfo>div>div>span:nth-child(1){
+	float: left;
+}
+.main .list_carInfo>div>div>span:nth-child(2){
+	float: right;
+}
+.main .list_carInfo>div>div:nth-child(3)>span:nth-child(2){
+	float: left;
+	margin-left: 5px;
+}
+.main .list_carInfo>div>div>span>i{
+	font-style: normal;
+}
+.main .list_carInfo>div>input{
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	display: block;
+	top:50%;
+	left: 15px;
+	margin-top: -15px;
+}
+.main .list_carInfo>div>div:nth-child(1)>span:nth-child(1){
+	color: #333;
+	width: 400px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.main .list_carInfo>div>div:nth-child(1)>span{
+	font-size: 22px;
+	height: 24px;
+	line-height: 24px;
+}
+.main .list_carInfo>div>div{
+	margin-top: 8px;
+}
+
+.main .list_carInfo>div>div:nth-child(2)>span,
+.main .list_carInfo>div>div:nth-child(3)>span {
+	height: 20px;
+	font-size: 20px;
+	line-height: 20px;
+	color: #666;
+}
+.main .list_carInfo>div>div:nth-child(2)>img{
+	vertical-align: middle;
+	height: 18px;
+	float: left;
+	margin-left: 5px;
+}
+.main .list_carInfo>div>div:nth-child(2)>span:nth-child(3){
+	float: left;
+	margin-left: 10px;
+}
+.main .list_carInfo>div>div:nth-child(4)>span>a{
+	margin-left: 2px;
+	text-decoration: none;
+	color: #3879D9;
+}
+.main .list_carInfo>div>div:nth-child(4)>span>a:hover{
+	text-decoration: underline;
+}
+.main .foot{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+	border-top:1px solid #ededed;
+}
+.main .foot2{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+	padding-top: 20px;
+}
+.main .foot2 .button_ask{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 70px;
+	width: 200px;
+	height: 70px;
+	color: white;
+	font-size: 26px;
+	background: #d7000f;
+	border-radius: 15px;
+	margin: 0 auto;
+}

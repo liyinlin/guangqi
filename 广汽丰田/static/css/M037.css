@@ -1,0 +1,26 @@
+#M037 .main {
+	width: 100%;
+}
+#M037 .main p {
+	padding: 0 20px;
+	height: 80px;
+	line-height: 80px;
+	background: #F4f4f4;
+	font-size: 26px;
+	color: #888;
+	border-bottom: 1px solid #d2d2d2;
+	overflow: hidden;
+}
+#M037 .main p span ,
+#M037 .main p a{
+	text-decoration: none;
+	float: right;
+	color: #888;
+}
+#M037 .main P:nth-child(1) {
+	height: 100px;
+	line-height: 100px;
+}
+#M037 .main P:nth-child(1) span {
+	margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+#M057 .main{
+  width: 100%;
+  margin: 88px auto 0 auto;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: normal;
+  color: #666666;
+}
+#M057 .main .con{
+	width: 590px;
+	padding: 20px 35px 20px 15px;
+	background-color: #f4f4f4;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+}
+#M057 .main .con span{
+	float: right;
+	margin-right: 10px;
+}
+#M057 .main .con .icon_right{
+	width: 20px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -12px;
+}

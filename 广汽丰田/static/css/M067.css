@@ -1,0 +1,108 @@
+#M067 .main{
+  width: 100%;
+  margin: 88px auto 25px auto;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  color: #888;
+}
+#M067 .main form{
+	width: 610px;
+	padding: 40px 15px 0;
+} 
+#M067 .main a{
+	text-decoration: none;
+	color: #666666;
+}
+#M067 .main input{
+	display: block;
+	height: 65px;
+	width: 608px;
+	margin-bottom: 20px;
+	border: 1px solid #CACACA;
+	text-indent: 10px;
+	outline: none;
+}
+#M067 .main .sel{
+	display: block;
+	height: 65px;
+	width: 590px;
+	margin-bottom: 20px;
+	outline: none;
+	border: 1px solid #CACACA;
+}
+#M067 .main .cpt{
+	overflow: hidden;
+	margin-top: 10px;
+}
+#M067 .main .cpt span{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: #f4f4f4;
+	margin: 20px 20px 0 0;
+	font-size: 60px;
+	float: left;
+	text-align: center;
+	line-height: 95px;
+	color: #888;
+}
+#M067 .main .txtap{
+	color: #959595;
+	height: 40px;
+	line-height: 40px;
+}
+#M067 .main .text{
+	width: 580px;
+	height: 200px;
+	margin-top: 20px;
+	resize: none;
+	border: 1px solid #ededed;
+	padding: 10px;
+	font-size: 24px;
+	color: #888;
+}
+#M067 .main .text::-webkit-input-placeholder{
+	color: #888;
+}
+#M067 .main .sub{
+	display: block;
+	width: 200px;
+	font-size: 26px;
+	margin: 20px 0 0 200px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	margin: 40px 0 0 195px;
+	background: #d7000f;
+	border: 1px solid #d7000f;
+	border-radius: 15px;
+}
+#M067 .main .main-minghi{
+    width:610px;
+    height:60px;
+    line-height:60px;
+    font-size:24px;
+    color: #666;
+}
+#M067 .main .main-minghi select{
+    float:right;
+    margin-top:10px;
+    margin-right:20px;
+    width:250px;
+    height:40px;
+    background-color:#f4f4f4;
+    text-indent:12px;
+    color:#888;
+    font-size:22px;
+    border:none;
+}
+#M067 .main .main-minghi span img{
+    width:9px;
+    height:16px;
+    float:right;
+    margin-top:24px;
+    margin-right:12px;
+}

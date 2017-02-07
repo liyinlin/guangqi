@@ -1,0 +1,50 @@
+#M060 .main {
+	width: 100%;
+}
+#M060 .main p,
+#M060 .main span {
+	font-size: 22px;
+	color: #333;
+}
+#M060 .main .top {
+	margin: 15px 0;
+	background: #f4f4f4;
+}
+#M060 .main .top span {
+	float: left;
+	width: 49.5%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+#M060 .main .top span:nth-child(1) {
+	border-right: 1px solid #D2D2D2;
+}
+#M060 .main .box {
+	padding: 20px;
+	background: #f2f2f2;
+	margin-bottom: 20px;
+}
+#M060 .main .box p {
+	line-height: 40px;
+}
+#M060 .main .box p:nth-child(1) span {
+	float: right;
+	color: #ccc;
+}
+#M060 .main .box p:nth-child(3) {
+	color: #666;
+}
+#M060 .main .box strong {
+	float: right;
+	color: #d7000f;
+}
+#M060 .main .box p:nth-child(1) .color1{
+	color: green;
+}
+#M060 .main .box p:nth-child(1) .color2{
+	color: #d7000f;
+}
+.con2{
+	display: none;
+}

@@ -1,0 +1,54 @@
+#M061-1 .main {
+	width: 100%;
+}
+#M061-1 .main span,
+#M061-1 .main label,
+#M061-1 .main a {
+	font-size: 22px;
+	color: #333;
+}
+#M061-1 .main .msg {
+	background: #f2f2f2;
+	padding: 30px 20px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+#M061-1 .main .msg img {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-right: 20px;
+}
+#M061-1 .main .msg p {
+	line-height: 70px;
+}
+#M061-1 .main .msg p span {
+	display: inline-block;
+	margin-left: 50px;
+}
+#M061-1 .main .bottom p {
+	height: 70px;
+	line-height: 70px;
+	background: #f2f2f2;
+	padding: 0 20px;
+}
+#M061-1 .main .bottom p input {
+	width: 450px;
+	height: 50px;
+	border: 1px solid #D2D2D2;
+}
+#M061-1 .main .bottom a {
+	display: block;
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	background: #d7000f;
+	border-radius: 15px;
+	border: 1px solid #d7000f;
+	display: block;
+	font-size: 26px;
+	margin: 100px auto 195px;
+}

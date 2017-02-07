@@ -1,0 +1,41 @@
+#M059 .main {
+	width: 100%;
+}
+#M059 .main label,
+#M059 .main input,
+#M059 .main a {
+	font-size: 22px;
+	color: #333;
+}
+#M059 .main p {
+	height: 100px;
+	line-height: 100px;
+	padding: 10px 20px;
+	background: #f2f2f2;
+}
+#M059 .main p label {
+	display: inline-block;
+	margin-right: 20px;
+}
+#M059 .main p input {
+	border: 0;
+	outline: 0;
+	background: #f2f2f2;
+	height: 40px;
+	width: 400px;
+}
+#M059 .main a {
+	display: block;
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	text-decoration: none;
+	background: #d7000f;
+	border-radius: 15px;
+	outline: 0;
+	color: #fff;
+	border: 1px solid #d7000f;
+	font-size: 26px;
+	margin: 150px auto 195px;
+}

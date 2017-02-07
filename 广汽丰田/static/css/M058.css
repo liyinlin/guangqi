@@ -1,0 +1,106 @@
+#M058 .main {
+	width: 100%;
+}
+#M058 .main p,
+#M058 .main span,
+#M058 .main h4 ,
+#M058 .main a{
+	font-size: 22px;
+	color: #333;
+}
+#M058 .main .top {
+	padding: 10px 0;
+	overflow: hidden;
+	background: #f2f2f2;
+}
+#M058 .main .top img {
+	float: left;
+	width: 200px;
+	height: 87px;
+	margin: 30px 20px 10px 160px;
+}
+#M058 .main .top div {
+	line-height: 150px;
+}
+#M058 .main .center {
+	overflow: hidden;
+	padding: 20px;
+	width: 650px;
+}
+#M058 .main .center p {
+	float: left;
+	width: 185px;
+	height: 80px;
+	margin-right: 20px;
+	background: #f2f2f2;
+	padding-top: 10px;
+}
+#M058 .main .center  p span {
+	display: block;
+	text-align: center;
+}
+#M058 .main .bottom p,
+#M058 .main .bottom a{
+	display: block;
+	text-decoration: none;
+	height: 70px;
+	line-height: 70px;
+	background: #f2f2f2;
+	padding: 0 30px;
+} 
+#M058 .main .bottom p input {
+	border: 0;
+	outline: 0;
+	background: #f2f2f2;
+	float: right;
+	margin-right: 170px;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 15px;
+}
+#M058 .main .bottom p > span {
+	float: right;
+	margin-right: 170px;
+	width: 200px;
+	height: 40px;
+}
+#M058 .main .bottom a .right {
+	float: right;
+	text-decoration: none;
+}
+#M058 .main .bottom a .right img{
+	height: 30px;
+}
+.wrapper,
+.wrapper .swiper-slide{
+	width: 100%;
+	overflow: hidden;
+}
+.swiper-slide{
+	position: relative;
+}
+.jt{
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top:60px;
+	z-index: 70;
+}
+.jt .hj{
+	width: 30px;
+	overflow: hidden;
+}
+.jt-left{
+	float: left;
+	margin-left: 40px;
+}
+.jt-right{
+	float: right;
+	margin-right: 40px;
+}
+.hj>img{
+	display: block;
+	width: 100%;
+    overflow: hidden;
+}

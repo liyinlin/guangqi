@@ -1,0 +1,222 @@
+#M034 .main{margin-top:0px;color:#666;font-size:20px;}
+#M034 .main .swiper-container,
+#M034 .main .swiper-container .swiper-wrapper,
+#M034 .main .swiper-container .swiper-wrapper .swiper-slide{
+    width: 100%;
+}
+#M034 .main .swiper-container .swiper-wrapper .swiper-slide>a,
+#M034 .main .swiper-container .swiper-wrapper .swiper-slide>a>img{
+    display: block;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+#M034 .main .swiper-container{
+	position:relative;
+	/*height:600px;*/
+}
+.main .swiper-container>a>span{
+	position:absolute;
+	display:inline-block;
+	z-index:20;
+	color:#d7000f;
+}
+#M034 .main .tubiao1{
+	right:94px;
+	top:20px;
+	width:36px;
+	height:36px;
+}
+#M034 .main .tubiao2{
+	right:28px;
+	top:20px;
+	width:36px;
+	height:36px;
+}
+#M034 .main .tubiao3{
+	right:28px;
+	top:80px;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:1px solid #d7000f;
+	text-align: center;
+	line-height:40px;
+}
+#M034 .main .tubiao4{
+	right:28px;
+	top:140px;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:1px solid #d7000f;
+	background-color: #d7000f;
+	text-align: center;
+	line-height:40px;
+	color: #fff;
+}
+#M034 .main .tubiao5{
+	right:0px;
+	top:210px;
+	padding:0px 10px;
+	height:40px;
+	border-radius:30px;
+	border:1px solid #d7000f;
+	background-color: #d7000f;
+	line-height:40px;
+	color:#fff;
+}
+#M034 .main .tubiao6{
+	left:0px;
+	top:400px;
+	padding:0px 10px;
+	height:40px;
+	border:1px solid #ededed;
+	line-height:40px;
+	background-color:#999;
+}
+#M034 .swapp .boxy p:nth-child(1){
+	width:100%;
+	height:46px;
+	background-color:#f4f4f4;
+	line-height:46px;
+	color:#333;
+	text-indent:14px;
+	margin:4px 0;
+}
+#M034 .swapp .boxy p:nth-child(2){
+	width:100%;
+	height:46px;
+	background-color:#f4f4f4;
+}
+#M034 .swapp .boxy p:nth-child(2) span:nth-child(1){
+    float:right;
+    line-height:46px;
+    height:46px;
+    background-color:#fff;
+    padding:0 16px 0 30px;
+    color:#d7000f;
+}
+#M034 .swapp .boxy p:nth-child(2) span:nth-child(2){
+    float:right;
+    line-height:46px;
+    height:46px;
+    background-color:#fff;
+    padding:0 20px 0 14px;
+    text-decoration: line-through;
+}
+#M034 .swapp .boxy p:nth-child(3){
+	width:100%;
+	height:46px;
+    line-height:46px;
+    text-indent:14px;
+    color:#666;
+    border-top:1px solid #ededed;
+	position: relative;
+}
+#M034 .swapp .boxy p:nth-child(3) select{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+#M034 .swapp .boxy p:nth-child(3) span{
+	width:30px;
+	height:46px;
+	line-height:46px;
+	float:right;
+	margin-right:14px;
+}
+#M034 .swapp .boxy p:nth-child(3) span img{
+	width:14px;
+	height:22px;
+	line-height:46px;
+}
+#M034 .swapp .boxx{
+	height:50px;
+	width:100%;
+	border-bottom:1px solid #ededed;
+	border-top:1px solid #ededed;
+	color:#666;
+	/*text-indent:14px;*/
+	line-height:50px;
+	position:relative;
+}
+#M034 .swapp .boxx>span{
+	display:inline-block;
+	width:28px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	position: absolute;
+	top:10px;
+	color:#fff;
+}
+#M034 .swapp .boxx>span:nth-child(1){
+	background-color:#d7000f;
+	left:124px;
+}
+#M034 .swapp .boxx>span:nth-child(2){
+	background-color:#000;
+	left:170px;
+}
+#M034 .swapp .boxx>span:nth-child(3){
+	background-color:#F2F2F2;
+	left:216px;
+}
+#M034 .swapp .boxx>span:nth-child(4){
+	background-color:#F5F577;
+	left:262px;
+}
+#M034 .swapp .boxx>span:nth-child(5){
+	background-color:#ccc;
+	left:308px;
+}
+#M034 .swapp .shadow{
+	width:100%;
+	height:46px;
+	line-height:46px;
+	text-indent:14px;
+}
+#M034 .swapp .hidetu{
+	width:100%;
+	overflow: hidden;
+	padding-bottom:70px;
+	border:1px solid #ededed;
+}
+#M034 .swapp .hidetu img{
+	width:100%;
+	display: block;
+}
+#M034 .swapp .showwu{
+	width:100%;
+	height:76px;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0px;
+	background: #fff;
+}
+#M034 .swapp .showwu a{
+	text-decoration: none;
+	display: block;
+	width:200px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	float:left;
+	font-size:24px;
+	color:#fff;
+	background: #d7000f;
+	border: 1px solid #d7000f;
+	border-radius: 15px;
+}
+#M034 .swapp .showwu a:nth-child(1){
+	color: #d7000f;
+	background: #fff;
+	margin-left: 105px;
+}
+#M034 .swapp .showwu a:nth-child(2){
+	margin-left: 30px;
+}

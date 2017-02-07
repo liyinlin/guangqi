@@ -1,0 +1,73 @@
+.main .top_nav{
+    width: 100%;
+    height: 76px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.main .top_nav>div{
+    width: 16.6%;
+    height: 76px;
+    float: left;
+}
+.main .top_nav>div>a{
+    display: block;
+    width: 100px;
+    height: 70px;
+    margin: 0px auto 0px;
+    background: #fff;
+    line-height: 70px;
+    text-decoration: none;
+    color: #d7000f;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 1px solid #d7000f;
+}
+.main .top_nav>div.active>a{
+    background: #d7000f;
+    color: #fff;
+}
+.sp_list{
+    width: 100%;
+    overflow: hidden;
+}
+.sp_list>div{
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+.sp_list>div>div{
+    width: 310px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.sp_list>div:nth-child(2n+1)>div{
+    float: left;
+}
+.sp_list>div:nth-child(2n)>div{
+    float:right;
+}
+.sp_list>div>div>img{
+    width:100%;
+    height: 400px;
+    display: block;
+}
+.sp_list>div>div>p:nth-child(2){
+    font-size: 22px;
+    color: #888;
+    height: 56px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 28px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.sp_list>div>div>p:nth-child(3){
+    font-size: 22px;
+    color: #888;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 5px;
+    text-indent: 5px;
+    padding: 5px 10px;
+}

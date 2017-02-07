@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<script type="text/javascript" src="../static/lib/js/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../static/lib/css/base.css">
+		<script type="text/javascript" src="../static/lib/js/base.js"></script>
+		<link rel="stylesheet" type="text/css" href="../static/css/M004.css" />
+		<title>M004</title>
+	</head>
+
+	<body>
+		<div class="wrap" id="M004">
+			<!--头部start-->
+			<div class="header">
+				<a href="###" class="left"><img src="../static/lib/images/icon-left.png" alt=""></a>
+				<div>订单详情</div>
+			</div>
+			<!--头部end-->
+			<!--内容部分start-->
+			<div class="main">
+				<form id="form1">
+					<div class="OrderInfo">
+						<div class="OrderInfoPic">
+							<img src="../static/images/M001/M001-9.jpg" />
+						</div>
+						<div class="OrderInfoContent">
+							<p class="ContentTitle">2016新款雷凌双氢3.5L四驱豪华导航版首发定金</p>
+							<p><label>颜色：</label>&nbsp;<span>红色</span>&nbsp;&nbsp;&nbsp;<label>车型：</label><span>3.5G豪华版导航版</span></p>
+							<p><label>厂商指导价：</label>&nbsp;<span>21~43万</span></p>
+							<p class="ContentPrice"><span>5400元</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>X</span><span>1</span></p>
+						</div>
+					</div>
+					<div class="OrderNum">
+						<table>
+							<tr>
+								<td>购买数量</td>
+								<td>－</td>
+								<td>1</td>
+								<td>＋</td>
+							</tr>
+						</table>
+					</div>
+					<p class="br topBr"></p>
+					<div class="title">
+						订单配件商品
+					</div>
+					<p class="br"></p>
+					<div class="OrderParts">
+						<div class="OrderPartsGroup clear">
+							<div class="OrderPartsInfo">
+								<a href="M003.html">
+									<img src="../static/images/M001/M001-7.jpg" />
+									<span>商品名称上屏名次名称名称名称</span>
+									<span>350元</span>
+								</a>
+							</div>
+							<div class="OrderPartsInfo">
+								<a href="M015.html">
+									<img src="../static/images/M001/M001-7.jpg" />
+									<span>商品名称上屏名次名称名称名称</span>
+									<span>350元</span>
+								</a>
+							</div>
+							<div class="OrderPartsInfo">
+								<a href="M003.html">
+									<img src="../static/images/M001/M001-7.jpg" />
+									<span>商品名称上屏名次名称名称名称</span>
+									<span>350元</span>
+								</a>
+							</div>
+							<div class="OrderPartsInfo">
+								<a href="M015.html">
+									<img src="../static/images/M001/M001-7.jpg" />
+									<span>商品名称上屏名次名称名称名称</span>
+									<span>350元</span>
+								</a>
+							</div>
+						</div>
+						<div class="OrderPartsGroup clear">
+							<div class="OrderPartsInfo">
+								<a href="M003.html">
+									<img src="../static/images/M001/M001-7.jpg" />
+									<span>商品名称上屏名次名称名称名称</span>
+									<span>350元</span>
+								</a>
+							</div>
+							<div class="OrderPartsInfo">
+								<a href="M015.html">
+									<img src="../static/images/M001/M001-7.jpg" />
+									<span>商品名称上屏名次名称名称名称</span>
+									<span>350元</span>
+								</a>
+							</div>
+							<div class="OrderPartsInfo">
+								<a href="M003.html">
+									<img src="../static/images/M001/M001-7.jpg" />
+									<span>商品名称上屏名次名称名称名称</span>
+									<span>350元</span>
+								</a>
+							</div>
+							<div class="OrderPartsInfo">
+								<a href="M015.html">
+									<img src="../static/images/M001/M001-7.jpg" />
+									<span>商品名称上屏名次名称名称名称</span>
+									<span>350元</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<p class="br topBr"></p>
+					<div class="title">
+						经销商：<span>经销商名称</span>
+					</div>
+					<p class="br"></p>
+					<div class="OrderPreferential">
+						<span class="jifenSpan">
+							<img class="radio" src="../static/lib/images/radio.png" alt="">
+							<span>可用积分</span>
+							<span>50000积分</span>
+							<span>抵扣150元</span>
+						</span>
+						<p class="br"></p>
+						<span class="youhuiSpan">
+							<img class="radio" src="../static/lib/images/radio.png" alt="">
+							<span>5月活动满减优惠卷</span><span>300元</span>
+						</span>
+						<p class="br"></p>
+					</div>
+					<div class="Ordersubmit">
+						<a href="M005.html">
+							<span>去支付</span>
+							<span>(合计：5100元)</span>
+						</a>
+					</div>
+			</form>
+			</div>
+			<!--内容部分end-->
+		</div>
+	<script type="text/javascript">
+		$(".radio").click(function () {
+			if($(this).attr("src")=="../static/lib/images/radio_active.png"){
+				$(this).attr("src","../static/lib/images/radio.png");
+			}else{
+				$(this).attr("src","../static/lib/images/radio_active.png");
+			}
+		});
+		$(".OrderNum>table tr td:nth-child(2)").click(function () {
+			var i=parseInt($(this).next().html());
+			if(i>0){
+				i--;
+			}else{
+				i=0;
+			}
+			$(this).next().html(i);
+		});
+		$(".OrderNum>table tr td:nth-child(4)").click(function () {
+			var i=parseInt($(this).prev().html());
+			if(i<=99){
+				i++;
+			}else{
+				i=99;
+			}
+			$(this).prev().html(i);
+		});
+	</script>
+	</body>
+
+</html>

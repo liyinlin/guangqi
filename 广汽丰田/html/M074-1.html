@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M074-1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="../static/lib/js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/lib/css/base.css">
+    <script type="text/javascript" src="../static/lib/js/base.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/lib/css/base.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/M074-1.css">
+</head>
+<body>
+    <div class="wrap">
+        <!--头部start-->
+        <div class="header">
+            <a href="###" class="left"><img src="../static/lib/images/icon-left.png" alt=""></a>
+            <div>订单详情</div>
+        </div>
+        <!--头部end-->
+        <div class="main">
+            <div class="info">
+                <div class="price">支付<span>￥399</span></div>
+                <div class="name">2016新款雷凌双擎3.5L四驱豪华保养套餐／精装车活动／精品礼包订／定金</div>
+            </div>
+            <div class="address">服务经销商 ：<span>汽丰田北京四广季青销售店</span></div>
+            <div class="fz">支付方式</div>
+            <div class="fs">
+                <div>
+                    <img src="../static/lib/images/zhifubao.png" alt="">
+                    <span>支付宝</span>
+                </div>
+                <div>
+                    <span><img class="radio act1" src="../static/lib/images/radio.png" alt=""></span>
+                    <!-- <input type="radio" name="fk" value="支付宝"> -->
+                </div>
+            </div>
+            <div class="fs bt">
+                <div>
+                    <img src="../static/lib/images/weixin.png" alt="">
+                    <span>微信支付</span>
+                </div>
+                <div>
+                    <span><img class="radio act1" src="../static/lib/images/radio.png" alt=""></span>
+                    <!-- <input type="radio" name="fk" value="微信"> -->
+                </div>
+            </div>
+            <a class="qr">确认支付<span>￥399</span></a>
+        </div>
+    </div>
+    <script>
+        $(function(){
+        /*    $('.fs>div:nth-child(2)>span').click(function(){
+                $('.fs>div:nth-child(2)>span').html("").css({"background":"","border":"1px solid #888"});
+                $(this).html('✔').css({"background":"#e50020","border":"1px solid #e50020"});
+                $('.fs>div:nth-child(2)>span').next().removeProp("checked");
+                $(this).next().prop("checked","checked");
+            })*/
+
+
+          $(".radio").click(function () {
+              $(".radio").attr("src","../static/lib/images/radio.png");
+              $(this).attr("src","../static/lib/images/radio_active.png");
+          })
+      })
+    </script>
+</body>
+</html>

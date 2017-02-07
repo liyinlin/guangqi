@@ -1,0 +1,45 @@
+#M049 .main {
+	width: 100%;
+}
+#M049 .main p,
+#M049 .main span,
+#M049 .main h4 {
+	font-size: 22px;
+	color: #333;
+}
+a {
+	text-decoration: none;
+}
+#M049 .main p {
+	height: 70px;
+	line-height: 70px;
+	background: #f4f4f4;
+	padding: 0 30px;
+}
+#M049 .main p.top span {
+	float: right;
+}
+#M049 .main div {
+	padding: 10px 0;
+	overflow: hidden;
+}
+#M049 .main div img {
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: 10px auto;
+}
+#M049 .main div .h4 {
+	text-align: center;
+}
+#M049 .main .main-con p > span {
+	float: right;
+	margin-right: 70px;
+	width: 300px;
+}
+#M049 .main .main-con p.detial {
+	text-align: center;
+	color: #d7000f;
+	border-top: 1px solid #ededed;
+	font-size: 24px;
+}

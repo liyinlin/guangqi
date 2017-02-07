@@ -1,0 +1,217 @@
+#M006 .main .address{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    border-top:1px solid #ededed;
+    text-indent: 10px;
+    color:#e50020;
+    font-size: 22px;
+    line-height: 50px;
+}
+#M006 .main .info{
+    width: 100%;
+    overflow: hidden;
+}
+#M006 .main .info>div{
+    width: 100%;
+    line-height: 60px;
+    text-indent: 15px;
+    font-size: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #EDEDED;
+}
+#M006 .main .info>div>span{
+    color: #333;
+}
+#M006 .main .info>div>span:nth-child(1){
+    float: left;
+}
+#M006 .main .info>div>span:nth-child(2){
+    float: right;
+    margin-right: 15px;
+    color:#e50020;
+}
+#M006 .main .info .info_car{
+    padding-bottom: 15px;
+}
+#M006 .main .info .info_car>a{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+#M006 .main .info .info_car>a>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#M006 .main .info .car_name{
+    width: 470px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#M006 .main .info .car_name>div{
+    width: 100%;
+    text-indent: 0px;
+}
+#M006 .main .info .car_name>div:nth-child(1){
+    height: 24px;
+}
+#M006 .main .info .car_name>div:nth-child(1)>div{
+    float: left;
+    font-size: 22px;
+    height: 26px;
+    line-height: 26px;
+}
+#M006 .main .info .car_name>div:nth-child(1)>div:nth-child(1){
+    width: 380px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+}
+#M006 .main .info .car_name>div:nth-child(1)>div:nth-child(2){
+    float: right;
+    color:#e50020;
+}
+#M006 .main .info .car_name>div:nth-child(2),
+#M006 .main .info .car_name>div:nth-child(3){
+    height: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+#M006 .main .info .car_name>div:nth-child(2)>span,
+#M006 .main .info .car_name>div:nth-child(3)>span{
+    margin-right: 15px;
+    line-height: 20px;
+    float: left;
+}
+#M006 .main .info .car_name>div:nth-child(3){
+    margin-top: 20px;
+    height: 30px;
+}
+#M006 .main .info .car_name>div:nth-child(3)>span:nth-last-child(1){
+    line-height: 18px;
+    font-size: 26px;
+    color:#e50020;
+    float: right;
+    margin-top: 15px;
+}
+#M006 .main .info>div:nth-child(2){
+    position: relative;
+    text-indent: 0px;
+}
+#M006 .main .info>div:nth-child(2)>span{
+    display: block;
+    height: 60px;
+    text-indent: 15px;
+    color:#666;
+}
+#M006 .main .info>div:nth-child(2)>span:nth-child(2){
+    float: left;
+    margin-left: 5px;
+}
+#M006 .main .dan_id{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-bottom: 1px solid #ededed;
+    border-top:1px solid #ededed;
+}
+#M006 .main .dan_left{
+    float: left;
+    margin-left: 15px;
+}
+#M006 .main .dan_left>div{
+    font-size: 16px;
+    height: 20px;
+    color: #666;
+    line-height: 20px;
+    margin-top: 5px;
+}
+#M006 .main .dan_left>div:nth-child(1){
+    margin-top: 15px;
+}
+#M006 .main .dan_right{
+    display: block;
+    width: 150px;
+    height: 50px;
+    color:#d7000f;
+    font-size: 22px;
+    line-height: 50px;
+    border: 1px solid #d7000f;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 22px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+#M006 .main .two_code{
+    width: 100%;
+    overflow:hidden;
+}
+#M006 .main .two_code>p,
+#M006 .main .two_code>img{
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+}
+#M006 .main .two_code>p{
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+#M006 .main .two_code>img{
+    width: 300px;
+    height: 300px;
+}
+#M006 .main .fun_two{
+    width: 100%;
+    margin-top: 20px;
+}
+#M006 .main .fun_two>div{
+    width: 33.3%;
+    height: 50px;
+    overflow: hidden;
+    float: left;
+}
+#M006 .main .fun_two>div>a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    width: 160px;
+    height: 50px;
+    height: 50px;
+    background: #1aad19;
+    margin: 0 auto;
+}
+#M006 .main .text_fun{
+    width: 100%;
+    margin: 20px auto 0px;
+    border: 1px solid #ededed;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+#M006 .main .text_fun>div{
+    width: 610px;
+    margin: 10px auto 0px;
+}
+#M006 .main .text_fun>div:nth-child(1){
+    font-size: 22px;
+    color: #333;
+    margin: 20px auto 0px;
+}
+#M006 .main .text_fun>div:nth-child(2){
+    font-size: 20px;
+    color: #666;
+    text-indent: 2em;
+}
+

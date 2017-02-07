@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M019</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="../static/lib/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../static/lib/css/swiper.min.css">
+    <link rel="stylesheet" href="../static/lib/css/base.css">
+    <script type="text/javascript" src="../static/lib/js/base.js"></script>
+    <link rel="stylesheet" href="../static/css/M019.css">
+</head>
+<body>
+<div class="wrap" id="M019">
+    <!--头部start-->
+    <div class="header">
+        <a href="###" class="left"><img src="../static/lib/images/icon-left.png" alt=""></a>
+        <div>订单详情</div>
+    </div>   
+    <!--内容部分start-->
+    <div class="main">
+        <div class="fadeup">
+            您的订单将有广汽丰田北京金时四季青店为你代收,您可以到店提取您的商品
+        </div>
+        <div class="OrderInfo">
+            <a href="M003.html" class="OrderInfoPic">
+                <img src="../static/images/M001/M001-9.jpg" />
+            </a>
+            <div class="OrderInfoContent">
+                <p class="ContentTitle">2016新款雷凌双氢3.5L四驱豪华导航版首发定金</p>
+                <p><label>颜色：</label>&nbsp;<span>红色</span>&nbsp;&nbsp;&nbsp;<label>车型：</label><span>3.5G豪华版导航版</span></p>
+                <p><label>厂商指导价：</label>&nbsp;<span>21~43万</span></p>
+                <p class="ContentPrice"><span>5400元</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>X</span><span>1</span></p>
+            </div>
+        </div>
+        <div class="OrderNum">
+            <table>
+                <tr>
+                    <td>购买数量</td>
+                    <td>－</td>
+                    <td>1</td>
+                    <td>＋</td>
+                </tr>
+            </table>
+        </div>
+        <div class="liuy">
+            买家留言:地址为经常去的4S店
+        </div>
+        <div class="fuk">
+            实际支付<span><span>3500</span>积分</span>
+        </div>
+        <div class="dingd">
+            <p class="dp1">订单编号:<span>123244567896570512838940596</span></p>
+            <p class="dp2">创建订单时间:<span>2016-9-02</span></p>
+            <p class="dp3">订单付款时间:<span>2016-9-02</span></p>
+        </div>
+        <div class="saom">
+            <p class="dp4">到店购车/进行服务时请出示此二维码</p>
+            <p class="dp5"><img src="../static/images/M019/M019-twoCode.jpg" alt=""></p>
+            <p class="dp6">
+                <span>拍照</span>
+                <span>微信</span>
+                <span>短信</span>
+            </p>
+            <div class="bottonn">
+                <p>使用规则:</p>
+                <div>相关文字...</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../static/lib/js/swiper.min.js"></script>
+<script type="text/javascript" src="../static/js/slidePic.js"></script>
+<script>
+    $(".OrderNum>table tr td:nth-child(2)").click(function () {
+        var i=parseInt($(this).next().html());
+        if(i>0){
+            i--;
+        }else{
+            i=0;
+        }
+        $(this).next().html(i);
+    });
+    $(".OrderNum>table tr td:nth-child(4)").click(function () {
+        var i=parseInt($(this).prev().html());
+        if(i<=99){
+            i++;
+        }else{
+            i=99;
+        }
+        $(this).prev().html(i);
+    });
+</script>
+</body>
+</html>

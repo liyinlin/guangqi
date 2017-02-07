@@ -1,0 +1,71 @@
+#M017 .main {
+	width: 100%;
+}
+#M017 .main span,
+#M017 .main p,
+#M017 .main label,
+#M017 .main a {
+	font-size: 22px;
+	color: #333;
+}
+#M017 .header > .right a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+	margin-top: -20px;
+}
+.radio{
+	width: 20px;
+	height: 20px;
+	line-height: 40px;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+#M017 .main .box {
+	height: 170px;
+	border-bottom: 1px solid #d2d2d2;
+	overflow: hidden;
+}
+#M017 .main .box .left {
+	float: left;
+	width: 100px;
+	height: 160px;
+	padding-top: 60px;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 22px;
+	line-height: 40px;
+	border-right: 1px solid #d2d2d2;
+}
+#M017 .main .box .right {
+	float: left;
+	padding: 10px;
+}
+#M017 .main .box .right p {
+	overflow: hidden;
+	height: 44px;
+	padding-bottom: 8px;
+}
+#M017 .main .box .right p:nth-child(1){
+	padding-bottom: 5px;
+}
+#M017 .main .box p input {
+	width: 20px;
+	height: 20px;
+	line-height: 40px;
+	display: none;
+}
+#M017 .main .box p label {
+	line-height: 40px;
+}
+#M017 .main .box .right p:nth-child(1) span {
+	float: right;
+}
+#M017 .main .box .right p:nth-child(2) select {
+	width: 400px;
+	height: 40px;
+}
+#M017 .main .box .right p:nth-child(3) select {
+	width: 350px;
+	height: 40px;
+}

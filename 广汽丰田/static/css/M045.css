@@ -1,0 +1,98 @@
+.wrap .header .tilte{
+	color: #666666;
+}
+.wrap .header div a{
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+	margin-right:20px;
+	line-height: 90px;
+}
+.main .now_integral{
+	width: 100%;
+	overflow: hidden;
+	background: #F4F4F4;
+}
+.now_integral .now_integral_num{
+	font-size: 80px;
+	text-align: center;
+	color: #d7000f;
+}
+.now_integral .now_integral_text{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.main .integral_ask{
+	width: 100%;
+	margin: 10px auto;
+	overflow: hidden;
+	background: #F4F4F4;
+}
+.integral_ask .integral_ask{
+	font-size: 28px;
+	text-indent: 50px;
+	color: #666666;
+}
+.integral_ask a{
+	text-decoration: none;
+	color: #666666;
+}
+.main .integral_menu{
+	width: 100%;
+	margin: 10px auto;
+	overflow: hidden;
+	background: #F4F4F4;
+}
+.integral_menu a{
+	width: 32%;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	display: block;
+	float: left;
+	font-size: 30px;
+	text-decoration: none;
+	color: #666666;
+}
+.integral_menu .middle{
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+.main .integral_options{
+	width: 100%;
+	margin: 10px auto;
+	overflow: hidden;
+	background: #F4F4F4;
+}
+.integral_options .options_lists{
+	margin: 20px auto;
+}
+.options_lists .left{
+	text-decoration: none;
+	color: #666666;
+	font-size: 28px;
+	margin-left: 50px;
+}
+.options_lists .right{
+	text-decoration: none;
+	float: right;
+	color: #d7000f;
+	font-size: 28px;
+	margin-right: 50px;
+}
+.header .url_right{
+	top:0px;
+	line-height: 88px;
+	color: #fff;
+}
+
+
+
+
+
+
+

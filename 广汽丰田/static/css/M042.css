@@ -1,0 +1,146 @@
+#M042 .main {
+	width: 100%;
+}
+#M042 .main p,
+#M042 .main h4, 
+#M042 .main a,
+#M042 .main span,
+#M042 .main button {
+	font-size: 22px;
+	color: #333;
+}
+.main .nav {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #D2D2D2;
+}
+.main .nav li {
+	float: left;
+	line-height: 50px;
+	width: 20%;
+	text-align: center;
+	border-bottom: 3px solid transparent;
+}
+#M042 .main .nav li.select {
+	border-bottom: 3px solid #FF0101;
+}
+#M042 .main .nav li.select a {
+	color: #FF0101;
+}
+#M042 .main .nav li a {
+	text-decoration: none;
+}
+#M042 .main p.top {
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	color: #FDB860;
+	padding: 0 20px;
+}
+#M042 .main .box {
+	background: #F2F2F2;
+	padding: 20px;
+	overflow: hidden;
+}
+#M042 .main .box img {
+	float: left;
+	width: 120px;
+	height: 120px;
+	margin-right: 20px;
+}
+#M042 .main .box .h4 {
+	overflow: hidden;
+	margin-top: 6px;
+}
+#M042 .main .box .h4 span {
+	float: right;
+}
+#M042 .main .box p {
+	font-size: 20px;
+	line-height: 30px;
+	width: 510px;
+}
+#M042 .main .box p.ft {
+	font-size: 18px;
+}
+#M042 .main .box span.num {
+	float: right;
+	margin-top: -60px;
+}
+#M042 .main p.total {
+	text-align: right;
+	line-height: 50px;
+	margin-right: 20px;
+}
+#M042 .main p.btn {
+	text-align: right;
+}
+#M042 .main p.btn a {
+	float: right;
+	display: block;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	outline: 0;
+	background: #fff;
+	border: 1px solid #666;
+	border-radius: 5px;
+	margin-right: 20px;
+	color: #333;
+	text-decoration: none;
+}
+#M042 .main p.btn a.estimate {
+	color: #d7000f;
+	border: 1px solid #d7000f;
+}
+#M042 .main .click {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 250px;
+	margin-top: -125px;
+	margin-left: -250px;
+	border: 1px solid #D2D2D2;
+	border-radius: 10px;
+	background: #fff;
+}
+#M042 .main .click {
+	display: none;
+	z-index: 120;
+}
+#M042 .main .click p {
+	height: 175px;
+	line-height: 175px;
+	text-align: center;
+	font-size: 30px;
+	border-bottom: 1px solid #D2D2D2;
+}
+#M042 .main .click a {
+	float: left;
+	width: 249px;
+	line-height: 75px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+}
+#M042 .main .click a.l {
+	border-right: 1px solid #D2D2D2;
+}
+#M042 .mengban {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	z-index: 100;
+	opacity: 0.4;
+	display: none;
+}
+#M042 .main .main-con {
+	border-bottom: 1px solid #D2D2D2;
+	overflow: hidden;
+	padding-bottom: 20px;
+}

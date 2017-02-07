@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 100px;
+}
+body{
+    font-size: 100px;
+    overflow: hidden;
+    font-family: "微软雅黑";
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.clear:after{
+    clear:both;
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+/*页面头部样式*/
+.header{
+    width: 100%;
+    height: 0.87rem;
+    border-bottom: 1px solid #d2d2d2;
+    font-size: 0.30rem;
+    text-align: center;
+    line-height: 0.87rem;
+    position: relative;
+    background: #d7000f;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+.header>div{
+    color:#fff;
+}
+.header>a{
+    display:block;
+    width: 1.09rem;
+    height: 0.87rem;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.header>a>img{
+    display:block;
+    width: 0.90rem;
+    height: 0.63rem;
+    overflow: hidden;
+    position: absolute;
+    top:0.10rem;
+    left: 0.20rem;
+}
+.wrap .header .left>img{
+    width:0.17rem;
+    height: 0.29rem;
+    display: block;
+    margin-top: 0.20rem;
+}
+/*内容部分*/
+.wrap .main{
+    width: 100%;
+    margin-top: 0.88rem;
+    overflow: hidden;
+    position: relative;
+}
+.wrap .main>img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrap .main .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top:0px;
+    z-index: 100;
+}
+.top{
+    width: 100%;
+    margin: 0px auto 80px;
+    overflow: hidden;
+}
+.top>a,
+.top>div{
+    float: left;
+    display: block;
+    font-size: 0.24rem;
+    text-decoration: none;
+    color: #333;
+    height: 0.60rem;
+    line-height: 0.60rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.top>div>span{
+    color: #e50020;
+    margin-left: 10px;
+}
+.display{
+    width: 100%;
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+    color: #666;
+}
+.display>span{
+    display: block;
+    float: right;
+    margin-right: 0.1rem;
+}
+.active{
+    color: #4960cf;
+}
+.order_pro{
+    display: block;
+    width: 0.4rem;
+    font-size: 0.22rem;
+    color: #333;
+    border: 1px solid #333;
+    border-right:none;
+    text-align: center;
+    border-radius: 5px 0px 0px 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    position: fixed;
+    right: 0px;
+    margin-top: 0.8rem;
+    background: #fff;
+    text-decoration: none;
+}
+.my_order{
+    display: block;
+    width: 2.50rem;
+    height: 0.6rem;
+    overflow: hidden;
+    background: #d7000f;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #fff;
+    font-size: 0.26rem;
+    text-decoration: none;
+    position: fixed;
+    left: 50%;
+    margin-left: -1.25rem;
+    bottom:2.20rem;
+    border-radius: 0.15rem;
+}

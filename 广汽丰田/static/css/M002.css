@@ -1,0 +1,209 @@
+#M002 .cityChange{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 10px;
+}
+#M002 .city{
+    width: 100%;
+    height: 60px;
+}
+#M002 .city .city_target{
+    width: 310px;
+    font-size: 20px;
+    height:60px;
+    line-height: 60px;
+    color:#333;
+}
+#M002 .city .city_si{
+    float: left;
+    margin-left: 10px;
+}
+#M002 .city .city_qu{
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+}
+#M002 .city .city_target>img{
+    width: 16px;
+    height:9px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+#M002 .city .city_list{
+    width:50px;
+    overflow: hidden;
+    position: absolute;
+    top:30px;
+    left: 0px;
+    z-index: 20;
+    background: #fff;
+    display: none;
+}
+#M002 .city .city_list li{
+    width: 80px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 28px;
+    border-bottom: 1px solid #ededed;
+}
+#M002 .city .city_list li:nth-last-child(1){
+    border-bottom: none;
+}
+#M002 .main .swiper-container,
+#M002 .main .swiper-container .swiper-wrapper,
+#M002 .main .swiper-container .swiper-wrapper .swiper-slide{
+    width: 100%;
+}
+#M002 .main .swiper-container .swiper-wrapper .swiper-slide>a,
+#M002 .main .swiper-container .swiper-wrapper .swiper-slide>a>img{
+    display: block;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+#M002 .main .swiper-thumbs,
+#M002 .main .swiper-thumbs .swiper-wrapper,
+#M002 .main .swiper-thumbs .swiper-wrapper .swiper-slide{
+    width: 600px;
+    margin: 0 auto;
+}
+#M002 .main .swiper-thumbs .swiper-wrapper .swiper-slide>a,
+#M002 .main .swiper-thumbs .swiper-wrapper .swiper-slide>a>img{
+    display: block;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+#M002 .main .swiper-thumbs .swiper-wrapper .swiper-slide>a{
+    position: relative;
+    text-decoration: none;
+}
+#M002 .main .slide_text{
+    position: absolute;
+    top:40px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+#M002 .main .slide_text .st_bd{
+    width: 100%;
+    height: 30px;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#M002 .main .slide_text .st_text{
+    font-size: 20px;
+    height: 50px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top:0px;
+}
+#M002 .main .st_info{
+    width: 600px;
+    height: 35px;
+    margin: 10px auto 0px;
+    overflow: hidden;
+}
+#M002 .main .st_info>div{
+    float: left;
+    color: #333;
+    font-size: 20px;
+}
+#M002 .main .st_info>div:nth-child(1){
+    width: 255px;
+    height: 35px;
+    background: #cacaca;
+    line-height: 35px;
+    text-indent: 10px;
+}
+#M002 .main .st_info>div:nth-child(2){
+    height: 35px;
+    line-height: 35px;
+    margin-left: 20px;
+}
+#M002 .main .st_info>div:nth-child(2)>span{
+    float: left;
+    display: block;
+    height: 35px;
+    margin-left: 5px;
+}
+#M002 .main .st_info>div:nth-child(2)>span:nth-child(1){
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    background: #e50020;
+    color: #fff;
+    border-radius: 100px;
+}
+#M002 .main .st_info>div:nth-child(3){
+    float: right;
+    margin-right: 5px;
+    line-height: 35px;
+}
+#M002 .main .st_info>div:nth-child(1)>span{
+    margin-left: 15px;
+    line-height: 30px;
+}
+#M002 .main .name{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 22px;
+    line-height: 22px;
+    color: #333;
+    text-align: center;
+}
+.car_info{
+    width: 100%;
+    overflow: hidden;
+}
+.car_info>a{
+    display: block;
+    text-decoration: none;
+    width: 33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.car_info>a>span,
+.car_info>a>img{
+    display: block;
+}
+.car_info>a>img{
+    width: 61px;
+    height: 61px;
+    margin: 0 auto;
+}
+.car_info>a>span{
+    margin-top: 10px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    font-size: 24px;
+    color: #888;
+}
+.car_info>div:nth-child(3n){
+    border-right:none;
+}
+#M002 .main .three_active>a{
+    position: relative;
+}
+#M002 .main .three_active>a>span{
+    display: block;
+    width: 61px;
+    height: 71px;
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    line-height: 60px;
+    text-align: center;
+    left:10px;
+    top:0px;
+    background: url(../lib/images/bd_th.png);
+}

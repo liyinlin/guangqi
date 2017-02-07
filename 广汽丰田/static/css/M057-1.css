@@ -1,0 +1,16 @@
+#M057-1 .main{
+  width: 100%;
+  margin: 88px auto 0 auto;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: normal;
+  color: #333333;
+}
+#M057-1 .main .con{
+	width: 590px;
+	padding: 20px 35px 20px 25px;
+	background-color: #F1F0EE;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+}

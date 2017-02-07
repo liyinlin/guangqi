@@ -1,0 +1,145 @@
+#M032 .main{color:#666;font-size:20px;}
+#M032 .main .pail{
+	width:100%;
+}
+#M032 .main .pail{
+	overflow: hidden;
+	border:1px solid #ededed;
+	padding:6px 0px;
+	width:100%;
+	margin-top:30px;
+}
+#M032 .main .pail .dian{
+	width:10%;
+	float:left;
+	line-height:200px;
+	text-align:center;
+}
+/*#M032 .main .pail .jmai,
+#M032 .main .pail .dian{
+	height:200px;
+}*/
+#M032 .main .pail .dian-1 img,
+#M032 .main .pail .dian-2 span{
+	float: left;
+	width:100%;
+	height:100%;
+	border-radius:50%;
+}
+#M032 .main .pail .dian-1{
+	width:20px;
+	height:20px;
+	border:1px solid #ededed;
+	border-radius:50%;
+	display:inline-block;
+	background-color:#ededed;
+}
+#M032 .main .pail .jmai{
+	float:right;
+	width:90%;
+	overflow: hidden;
+}
+#M032 .main .pail .jmai .mingc{
+    background-color:#d7000f;
+	color: #fff;
+    padding:6px;
+}
+#M032 .main .pail .gmai{overflow:hidden;}
+#M032 .main .pail .gmai .gmai-1,
+#M032 .main .pail .gmai .gmai-1 img{
+	width:120px;
+	height:120px;
+}
+#M032 .main .pail .gmai .gmai-1 img{
+	margin-top: 5px;
+}
+#M032 .main .pail .gmai .gmai-1{
+	float:left;
+}
+#M032 .main .pail .gmai .gmai-2,
+#M032 .main .pail .gmai .gmai-3,
+#M032 .main .pail .gmai .gmai-4,
+#M032 .main .pail .gmai .gmai-5{
+	padding:4px;
+}
+#M032 .main .gmai-2 .gmai-span2,
+#M032 .main .gmai-3 .gmai-span5{
+	margin-right:18px;
+}
+#M032 .main .gmai-span2,
+#M032 .main .gmai-span3,
+#M032 .main .gmai-span5,
+#M032 .main .gmai-span6{
+    float: right;
+    line-height:34px;
+}
+#M032 .main .gmai4{
+	height:50px;
+	width:100%;
+}
+#M032 .main .gmai4 span{margin-left:10px;}
+#M032 .main .gmai4 span,
+#M032 .main .gmai4 span img{
+	width: 40px;
+	height: 40px;
+}
+.main .OrderNum>table {
+	border-collapse: collapse;
+	width: 96%;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 22px;
+}
+
+.main .OrderNum>table tr {
+	line-height: 42px;
+}
+.main .OrderNum>table tr>td{
+	color: #888;
+}
+.main .OrderNum>table tr td:nth-child(1) {
+	text-indent: 10px;
+}
+
+.main .OrderNum>table tr td:nth-child(2),
+.main .OrderNum>table tr td:nth-child(4){
+	width: 50px;
+	text-align: center;
+	border-left:1px solid #ededed;
+	border-top: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	font-size: 34px;
+	color: #888;
+}
+
+.main .OrderNum>table tr td:nth-child(3) {
+	text-align: center;
+	width: 100px;
+	border: 1px solid #EDEDED;
+	color:  #888;
+}
+.main .OrderNum>table tr td:nth-child(4){
+	border-right:1px solid #EDEDED;
+}
+.main .title {
+	font-size: 22px;
+	margin-left: 15px;
+	width: 100%;
+	height: 40px;
+	float: none;
+	padding-top: 10px;
+}
+#M032 .main .qugm{
+	width:100%;
+}
+#M032 .main .qugm a{
+	text-decoration: none;
+	float:right;
+	padding:2% 8%;
+	font-size:24px;
+    color:#fff;
+    background-color:#d7000f;
+	border-radius: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

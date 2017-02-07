@@ -1,0 +1,448 @@
+﻿/*页面初始化*/
+*{
+    margin:0px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    font-family: "微软雅黑";
+    font-size: 18px;
+    display: none;
+}
+.clear:after{
+    clear:both;
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+img{
+    border: none;
+}
+input[type='button'],
+input[type='submit'],
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+input,select{
+    font-family: "微软雅黑";
+    border: 1px solid #ccc;
+    text-indent: 8px;
+    color: #888;
+    font-size: 22px;
+    outline: none;
+}
+select {
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 14px;
+}
+
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+.wrap,.main,footer{
+    width: 100%;
+    overflow: hidden;
+}
+ul li{
+    list-style: none;
+}
+select option{
+    font-size: 12px;
+    color: #888;
+    text-indent: 8px;
+    font-family: "微软雅黑";
+}
+/*页面头部样式*/
+.header{
+    width: 640px;
+    height: 87px;
+    border-bottom: 1px solid #d2d2d2;
+    font-size: 30px;
+    text-align: center;
+    line-height: 87px;
+    position: relative;
+    color:#fff;
+    background: #d7000f;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+.header>a{
+    display:block;
+    width: 109px;
+    height: 87px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.header>a>img{
+    display:block;
+    width: 90px;
+    height: 63px;
+    overflow: hidden;
+    position: absolute;
+    top:10px;
+    left: 20px;
+}
+.header>.right{
+    position: absolute;
+    height: 36px;
+    top:28px;
+    right: 24px;
+}
+.header>.right>a{
+    display: block;
+    float: left;
+    margin-left: 15px;
+}
+.header>.right>a>img{
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+.header .url_right{
+    text-decoration: none;
+    position: absolute;
+    right: 15px;
+}
+.header .nav{
+    width: 40px;
+    height: 31px;
+    top: 28px;
+    margin-left: 15px;
+}
+.header .nav>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+}
+/*头部导航部分样式*/
+.respeo_info{
+    width: 100%;
+    position: fixed;
+    top:87px;
+    overflow: hidden;
+    background: #fff;
+    z-index:100;
+    padding-bottom: 40px;
+    right: -640px;
+}
+.respeo_info>a{
+    display: block;
+    width: 100%;
+    height: 58px;
+    overflow: hidden;
+    border-top:1px solid #e5e5e5;
+    font-size: 22px;
+    text-decoration: none;
+    color: #333333;
+    text-indent: 22px;
+    line-height: 58px;
+    position: relative;
+}
+.respeo_info>a:nth-last-child(1){
+    border-bottom: 1px solid #e5e5e5;
+}
+.respeo_info>a:nth-child(1){
+    height: 103px;
+}
+.respeo_info>a>img{
+    position: absolute;
+    right: 28px;
+    top: 24px;
+    width: 9px;
+    height: 12px;
+}
+.respeo_info>a:nth-child(1)>img{
+    position: static;
+    display: block;
+    margin: 41px auto 0;
+    width: 241px;
+    height: 25px;
+}
+.main{
+    margin-top: 88px;
+}
+.wrap .header .left>img{
+    width:17px;
+    height: 29px;
+    display: block;
+    margin-top: 20px;
+}
+/*轮播图的点的颜色*/
+.swiper-pagination-bullet{
+    background: none;
+    border: 1px solid #888;
+}
+.swiper-pagination-bullet-active{
+    background: #E50020;
+    border: 1px solid #E50020;
+}
+/*搜索框样式*/
+.main .search{
+    width:619px;
+    height: 42px;
+    overflow: hidden;
+    margin:10px auto;
+    position: relative;
+}
+.main .search>input{
+    display: block;
+    width: 616px;
+    overflow: hidden;
+    height: 38px;
+    border: 1px solid #f4f4f4;
+    border-radius:38px;
+    text-indent: 50px;
+    color: #888;
+    font-size:18px;
+    margin: 0 auto;
+    outline: none;
+    background: #f4f4f4;
+}
+.search>img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:10.5px;
+    left: 15px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #888; opacity:1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #888; opacity:1;
+}
+
+input:-ms-input-placeholder{
+    color: #888; opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    color: #888; opacity:1;
+}
+/*footer样式*/
+.footer{
+    width: 100%;
+    background: #d7d7d7;
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+    color:#888888;
+    margin-top: 10px;
+}
+/*活动图片样式*/
+.one_active,
+.two_active,
+.three_active,
+.four_active,
+.five_active{
+    width: 100%;
+    margin-top: 10px;
+}
+.one_active>a:nth-child(1){
+    width: 420px;
+    height: 220px;
+    overflow: hidden;
+    float: left;
+}
+.one_active>div{
+    width: 216px;
+    height: 220px;
+    margin-left: 4px;
+    float: left;
+}
+.one_active>div>a{
+    width: 216px;
+    height: 108px;
+    overflow: hidden;
+}
+.one_active>div>a:nth-child(2){
+    margin-top: 4px;
+}
+.two_active>a{
+    width: 100%;
+    height:154px;
+}
+.two_active>a>img{
+    display: block;
+    height: 154px;
+    width: 100%;
+    overflow: hidden;
+}
+.three_active>a{
+    width: 33.33333333%;
+    height:200px;
+    overflow: hidden;
+    float: left;
+}
+.three_active>a>img{
+    width: 210px;
+    height:200px;
+    display: block;
+}
+.three_active>a:nth-child(2)>img{
+    margin: 0 auto;
+}
+.three_active>a:nth-child(3)>img{
+    float: right;
+}
+.four_active>a{
+    width: 25%;
+    height: 210px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.four_active .type{
+    width:156px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.four_active .type .type_bd{
+    width: 156px;
+    height: 30px;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.four_active .type .type_content{
+    width: 156px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top:0px;
+    color: #fff;
+    text-indent: 4px;
+    font-size: 14px;
+}
+.four_active>a>img{
+    width: 156px;
+    height: 210px;
+    margin: 0 auto;
+}
+.four_active>a:nth-child(1)>img{
+    float: left;
+}
+.four_active>a:nth-child(2)>img,
+.four_active>a:nth-child(3)>img{
+    margin:0 auto;
+}
+
+.four_active>a:nth-child(4)>img{
+    float: right;
+}
+.five_active>a{
+    width: 50%;
+    height: 202px;
+    overflow: hidden;
+    float: left;
+}
+.five_active>a>img{
+    width: 318px;
+    height: 212px;
+    display: block;
+}
+.five_active>a:nth-child(2)>img {
+    float: right;
+}
+.morea{
+    text-align: center;
+    cursor: pointer;
+    width: 640px;
+    height: 40px;
+    color: #333;
+    line-height: 40px;
+    font-size: 22px;
+}
+.morea>img{
+    width: 24px;
+    height:24px;
+    margin-right: 10px;
+}
+.morea>span{
+    position: relative;
+    top: -2px;
+}
+.main .checkbox{
+    width: 610px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.main .checkbox>p,
+.main .checkbox>div{
+    float: left;
+}
+.main .checkbox .div{
+    width: 26px;
+    height: 26px;
+    border: 1px solid #888;
+    color: #d7000f;
+    text-align: center;
+    line-height: 26px;
+    font-size: 20px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.main .checkbox>p{
+    font-size: 20px;
+    color: #888;
+    line-height: 28px;
+    overflow: hidden;
+    text-indent: 2em;
+}
+.main .checkbox>p>a{
+    color:#d7000f;
+}
+.main .G404{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    margin-left: -320px;
+    margin-top: -251px;
+}
+.main .G404>img{
+    width: 100%;
+    max-width: 640px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+#wrap .footer{
+    position: fixed;
+    bottom: 0px;
+}
+.xx_img{
+    margin-left: 10px;
+    height: 22px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+}
+.xx_img>img{
+    height:100%;
+    float: left;
+    margin-left: 2px;
+}

@@ -1,0 +1,166 @@
+#M001 .main .swiper-container,
+ #M001 .main .swiper-container .swiper-wrapper,
+ #M001 .main .swiper-container .swiper-wrapper .swiper-slide{
+     width: 100%;
+ }
+#M001 .main .swiper-container .swiper-wrapper .swiper-slide>a,
+#M001 .main .swiper-container .swiper-wrapper .swiper-slide>a>img{
+    display: block;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+#M001 .cityChange{
+    width:100%;
+    height: 60px;
+    border: 1px solid #d2d2d2;
+}
+#M001 .city{
+    width: 310px;
+    height: 60px;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+}
+#M001 .tips{
+    width: 310px;
+    margin-right: 10px;
+    text-align: right;
+    float: right;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    color:#888;
+}
+#M001 .city .city_target{
+    width: 310px;
+    font-size: 24px;
+    height:60px;
+    color:#888;
+}
+#M001 .city .city_target>img:nth-child(1){
+    width: 20px;
+    height:25px;
+    margin-right: 10px;
+    margin-top: 17.5px;
+}
+#M001 .city .city_target>span,
+#M001 .city .city_target>img{
+    display: block;
+    float: left;
+}
+#M001 .city .city_target>span{
+    display: inline-block;
+    max-width: 240px;
+    overflow: hidden;
+    line-height: 60px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#M001 .city .city_target>img:nth-child(3){
+    width: 15px;
+    height:9px;
+    margin-left: 10px;
+    margin-top: 25.5px;
+}
+#M001 .city .city_list{
+    width:50px;
+    overflow: hidden;
+    position: absolute;
+    top:30px;
+    left: 0px;
+    z-index: 20;
+    background: #fff;
+    display: none;
+}
+#M001 .city .city_list li{
+    width: 80px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 28px;
+    border-bottom: 1px solid #ededed;
+}
+#M001 .city .city_list li:nth-last-child(1){
+    border-bottom: none;
+}
+#M001 .tips>span{
+    margin-left: 10px;
+    font-size: 20px;
+}
+#M001 .tips>span>i{
+    font-style: normal;
+}
+#M001 .car_info{
+    width: 100%;
+    overflow: hidden;
+}
+#M001 .car_info>a{
+    display: block;
+    text-decoration: none;
+    width: 33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+#M001 .car_info>a>span,
+#M001 .car_info>a>img{
+    display: block;
+}
+#M001 .car_info>a>img{
+    width: 61px;
+    height: 61px;
+    margin: 0 auto;
+}
+#M001 .car_info>a>span{
+    margin-top: 10px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    font-size: 24px;
+    color: #888;
+}
+#M001 .car_info>div:nth-child(3n){
+    border-right:none;
+}
+#M001 .car_active{
+    width: 100%;
+    overflow: hidden;
+}
+#M001 .car_active a{
+    display: block;
+}
+#M001 .car_active a>img{
+    display: block;
+    overflow: hidden;
+}
+#M001 .target_res{
+    display: block;
+    text-decoration: none;
+    width: 90px;
+    height: 100px;
+    background: #f4f4f4;
+    overflow: hidden;
+    border-radius: 10px;
+    position: fixed;
+    top:350px;
+    right:10px;
+    z-index: 50;
+}
+#M001 .target_res>img,
+#M001 .target_res>span{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+#M001 .target_res>img{
+    display: block;
+    width:38px;
+    heigth:38px;
+    margin:18px auto 0;
+}
+#M001 .target_res>span{
+    margin-top: 10px;
+    color:#888;
+}
+
+

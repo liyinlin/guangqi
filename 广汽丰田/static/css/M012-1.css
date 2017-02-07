@@ -1,0 +1,94 @@
+#M012-1 .main {
+	width: 100%;
+	padding: 0 20px;
+}
+#M012-1 .main label,
+#M012-1 .main input,
+#M012-1 .main p,
+#M012-1 .main a,
+#M012-1 .main h4 {
+	font-size: 22px;
+	color: #333;
+}
+#M012-1 .main .top label {
+	display: block;
+	margin-bottom: 15px;
+}
+#M012-1 .main .top label:nth-of-type(1) {
+	margin-top: 15px;
+}
+#M012-1 .main .top input	{
+	width: 600px;
+	height: 40px;
+	margin-bottom: 15px;
+	border: 1px solid #d2d2d2;
+}
+#M012-1 .main .top label a {
+	float: right;
+	margin-right: 40px;
+	color: #d7000f;
+	text-decoration: none;
+}
+#M012-1 .main ul {
+	margin-bottom: 20px;
+	width: 700px;
+	overflow: hidden;
+}
+#M012-1 .main ul li {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	width: 185px;
+	border: 1px solid #d2d2d2;
+	margin: 15px 15px 0 0;
+	text-align: center;
+}
+#M012-1 .main ul li a {
+	text-decoration: none;
+}
+#M012-1 .main .bottom p {
+	overflow: hidden;
+	height: 44px;
+	margin-bottom: 25px;
+}
+#M012-1 .main .bottom p label {
+	float: left;
+	margin-right: 20px;
+	line-height: 40px;
+}
+#M012-1 .main .bottom p input ,select{
+	width: 480px;
+	height: 40px;
+	border: 1px solid #d2d2d2;
+	color:#666;
+}
+#M012-1 .main .bottom p a {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #d2d2d2;
+	text-decoration: none;
+	margin-right: 15px;
+}
+#M012-1 .main > a {
+	display: block;
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	background: #d7000f;
+	border-radius: 5px;
+	margin: 20px auto 0px;
+	color: #fff;
+	font-size: 26px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+#M012-1 .main .checkbox>p>a {
+	color: #d7000f;
+}
+.main .checkbox{
+	margin:0px;
+}

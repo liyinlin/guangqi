@@ -1,0 +1,61 @@
+#M070 .main {
+	width: 100%;
+}
+#M070 .main .h4,
+#M070 .main input {
+	font-size: 24px;
+}
+#M070 .main .msg {
+	padding: 20px;
+	border-bottom: 1px solid #D2D2D2;
+	overflow: hidden;
+}
+#M070 .main .h4 {
+	height: 50px;
+	line-height: 50px;
+}
+#M070 .main .msg input {
+	float: right;
+	height: 40px;
+	width: 500px;
+	margin: 0 30px 15px 0;
+	border: 1px solid #D2D2D2;
+	text-indent: 8px;
+}
+#M070 .main .img {
+	overflow: hidden;
+	padding: 20px;
+	border-bottom: 1px solid #D2D2D2;
+}
+#M070 .main .img img {
+	float: left;
+	height: 120px;
+	width: 220px;
+	margin: 10px 50px 0 70px;
+}
+#M070 .main .img a {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+	background: #fff;
+	color: #d7000f;
+	border: 1px solid #d7000f;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+#M070 .main .time {
+	overflow: hidden;
+	padding: 20px;
+}
+#M070 .main .time input {
+	float: right;
+	height: 40px;
+	width: 500px;
+	margin: 0 30px 15px 0;
+	border: 1px solid #D2D2D2;
+	text-indent: 8px;
+}

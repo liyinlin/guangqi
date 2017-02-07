@@ -1,0 +1,106 @@
+#M071 .main {
+	width: 100%;
+}
+#M071 .main p,
+#M071 .main input {
+	font-size: 24px;
+}
+#M071 .main p {
+	height: 70px;
+	line-height: 70px;
+	padding: 0 20px;
+	overflow: hidden;
+}
+#M071 .main p:nth-child(1) {
+	margin-top: 15px;
+}
+#M071 .main p label {
+	float: left;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 10px;
+	position: relative;
+	top:5px;
+}
+#M071 .main p input {
+	float: left;
+	width: 530px;
+	height: 50px;
+	background: #f4f4f4;
+	text-indent: 8px;
+	border: none;
+	outline: none;
+	color: #888;
+}
+#M071 .main p input::-webkit-input-placeholder{
+	color: #888;
+}
+#M071 .main p:nth-child(5) input {
+	width: 370px;
+}
+#M071 .main p:nth-child(5) a {
+	float: left;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background: #d7000f;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-left: 6px;
+}
+#M071 .main a.submit {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 26px;
+	width: 350px;
+	margin-left: 145px;
+	margin-top: 15px;
+	background: #d7000f;
+	border: 1px solid #d7000f;
+	border-radius: 15px;
+}
+.submit_outer{
+	padding-bottom: 50px;
+	position: fixed;
+	background: #fff;
+	bottom: 0px;
+	width: 100px;
+	padding-top: 20px;
+}
+.main .checkbox{
+	width: 610px;
+	margin: 0 auto;
+	position: relative;
+	margin-left: 15px;
+}
+/*.main .checkbox>p,
+.main .checkbox>div{
+	float: left;
+}
+.main .checkbox>div{
+	width: 26px;
+	height: 26px;
+	border: 1px solid #888;
+	color: #d7000f;
+	text-align: center;
+	line-height: 26px;
+	font-size: 20px;
+}*/
+#M071 .main .checkbox>p{
+	width: 100%;
+	font-size: 24px;
+	color: #888;
+    height: auto;
+	line-height: 28px;
+	padding: 0px;
+	overflow: hidden;
+	margin-top:0px;
+}

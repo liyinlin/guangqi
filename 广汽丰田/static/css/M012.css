@@ -1,0 +1,287 @@
+#M012 .main{
+    padding-bottom: 61px;
+}
+#M012 .main .two{
+    display: none;
+}
+#M012 .main .one,
+#M012 .main .two{
+    width: 100%;
+    overflow: hidden;
+}
+#M012 .main .text{
+    width: 610px;
+    font-size: 26px;
+    line-height: 40px;
+    overflow: hidden;
+    text-indent: 2em;
+    color: #888;
+    margin: 8px auto 0px;
+}
+#M012 .main .button{
+    width: 100%;
+    height: 74px;
+    background: #fff;
+    margin-top: 20px;
+}
+#M012 .main .button>div{
+    width: 428px;
+    height: 74px;
+    margin: 0 auto;
+}
+#M012 .main .button>div>a{
+    display: block;
+    text-decoration: none;
+    color: #d7000f;
+    font-size: 28px;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    float: left;
+    border-radius: 15px;
+    border: 1px solid #d7000f;
+    float: right;
+}
+#M012 .main .js{
+    width: 580px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#M012 .main .title {
+    font-size: 22px;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+     width: 100%;
+}
+#M012 .main .js_content{
+    width: 574px;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    margin: 0 auto;
+}
+#M012 .main .js_content>div{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+#M012 .main .js_content>div>div,
+#M012 .main .js_content>div>div>select,input{
+    font-size: 22px;
+    color: #666;
+}
+#M012 .main .js_content>div>div{
+    line-height: 46px;
+}
+#M012 .main .js_content>div>div{
+    float: left;
+    height: 46px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+#M012 .main .js_content>div>div:nth-child(1){
+    width: 150px;
+    text-align: center;
+}
+#M012 .main .js_content>div>div:nth-child(2){
+    width: 420px;
+}
+#M012 .main .js_content>div>div>select,input{
+     display: block;
+     float: left;
+     height: 35px;
+     margin-top: 6px;
+}
+#M012 .main .js_content>div>div>select{
+    width: 180px;
+    margin-left: 15px;
+}
+#M012 .main .js_content>div>div>input{
+    width: 372px;
+    margin-left: 15px;
+}
+#M012 .main .button>a:nth-child(1){
+    border-right:1px solid #EDEDED;
+    border-bottom: 1px solid #ededed;
+}
+#M012 .main .name{
+    width: 100%;
+    height: 150px;
+    background: #cacaca;
+    overflow: hidden;
+}
+#M012 .main .name>div{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#M012 .main .name>div:nth-child(2){
+    font-size: 18px;
+    color:#e50020;
+    text-align: center;
+}
+#M012 .main .name>div:nth-child(1){
+    height: 60px;
+    line-height: 60px;
+}
+#M012 .main .name>div:nth-child(1)>div{
+    width: 33.33%;
+    float: left;
+    height: 60px;
+    overflow: hidden;
+}
+#M012 .main .name>div:nth-child(1)>div>span{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+#M012 .main .name>div:nth-child(1)>div:nth-child(1)>span{
+    font-size: 24px;
+}
+#M012 .main .name>div:nth-child(1)>div:nth-child(2)>span{
+    font-size: 32px;
+}
+.name_list{
+    width: 100%;
+    overflow: hidden;
+}
+.name_list>div{
+    width: 610px;
+    margin: 0 auto;
+    height: 60px;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+}
+.name_list>div>span{
+    font-size: 22px;
+    line-height: 60px;
+    color: #333;
+}
+.name_list>div>span:nth-child(1){
+    float: left;
+}
+.name_list>div>span:nth-child(2){
+    float: right;
+    margin-right: 30px;
+}
+.name_list>div>img{
+    position: absolute;
+    right: 5px;
+    width: 9px;
+    height: 16px;
+    top:50%;
+    margin-top: -8px;
+}
+#M012 .main .slide_button{
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px #EDEDED;
+    cursor: pointer;
+}
+.slide_bottom{
+    width: 118px;
+    height: 38px;
+    background: #00a0e9;
+    text-indent: 28px;
+    border-radius: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #fff;
+    margin: 1px auto;
+}
+.slide_top{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 10;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #666;
+    background: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.slide_top>div:nth-child(1){
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    border-radius: 36px;
+    border: 2px solid #EDEDED;
+}
+.slide_top>div:nth-child(2){
+    width: 120px;
+    height: 40px;
+    text-indent: 32px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #666;
+    background: #fff;
+    border-radius: 40px;
+}
+#M012 .main .name>div:nth-child(1)>div:nth-child(3)>span{
+    display: block;
+    width: 150px;
+    height: 56px;
+    border: 1px solid #666;
+    text-align: center;
+    line-height: 56px;
+    font-size: 28px;
+    border-radius: 10px;
+}
+#M012 .main .button>div>a:nth-child(1){
+    background: #e50020;
+    color: #fff;
+}
+#M012 .main .button>div>a:nth-child(2){
+    margin-right: 20px;
+}
+.tc{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+}
+.oneTC{
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #ededed;
+    display: none;
+}
+.oneTC>div{
+    width: 100%;
+    height: 38px;
+    border-bottom: 1px solid #ededed;
+   /* display: none;*/
+}
+.oneTC>div>img{
+    float: left;
+    margin-left: 15px;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    display: block;
+}
+.oneTC>div>span{
+    float: right;
+    margin-right: 15px;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    font-size: 24px;
+    color: #888;
+}

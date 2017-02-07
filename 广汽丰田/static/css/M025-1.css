@@ -1,0 +1,123 @@
+.city_target{
+    width: 120px;
+    font-size: 20px;
+    height:60px;
+    line-height: 60px;
+    color:#333;
+    float: left;
+    margin-left: 20px;
+}
+.city_target>img,
+.city_target>span{
+    float: left;
+}
+.city_target>span{
+    display: inline-block;
+    max-width: 80px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 60px;
+    white-space: nowrap;
+}
+.city_target>img{
+    width: 16px;
+    height:9px;
+    margin-left: 10px;
+    margin-top: 25.5px;
+}
+.main .search{
+    width: 480px;
+    float: left;
+    margin: 10px 0px;
+}
+.main .search>input{
+    width: 480px;
+    margin: 0 auto;
+}
+.main .list_carInfo{
+    width: 100%;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+.main .list_carInfo>div{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: -4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    border-bottom:1px solid #EDEDED;
+}
+.main .list_carInfo>div>div{
+    width: 600px;
+    margin-left:20px;
+    overflow: hidden;
+}
+.main .list_carInfo>div>div:nth-child(1)>span,
+.main .list_carInfo>div>div:nth-child(3)>span{
+    display: block;
+}
+.main .list_carInfo>div>div>span:nth-child(1){
+    float: left;
+}
+.main .list_carInfo>div>div>span:nth-child(2){
+    float: right;
+}
+.main .list_carInfo>div>div:nth-child(3)>span:nth-child(1),
+.main .list_carInfo>div>div:nth-child(3)>span:nth-child(2){
+    float: left;
+}
+.main .list_carInfo>div>div:nth-child(3)>span:nth-child(3){
+    float: right;
+    margin-right: 5px;
+}
+.main .list_carInfo>div>div>span>i{
+    font-style: normal;
+}
+.main .list_carInfo>div>input{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    display: block;
+    top:50%;
+    left: 15px;
+    margin-top: -15px;
+}
+.main .list_carInfo>div>div:nth-child(1)>span:nth-child(1){
+    color: #333;
+    width: 400px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.main .list_carInfo>div>div:nth-child(1)>span{
+    font-size: 22px;
+    height: 24px;
+    line-height: 24px;
+}
+.main .list_carInfo>div>div{
+    margin-top: 8px;
+}
+
+.main .list_carInfo>div>div:nth-child(2)>span,
+.main .list_carInfo>div>div:nth-child(3)>span {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #666;
+}
+.main .list_carInfo>div>div:nth-child(2)>img{
+    vertical-align: middle;
+    height: 18px;
+    float: left;
+    margin-left: 5px;
+}
+.main .list_carInfo>div>div:nth-child(2)>span:nth-child(3){
+    float: left;
+    margin-left: 10px;
+}
+.main .list_carInfo>div>div:nth-child(3)>span>a{
+    margin-left: 2px;
+    text-decoration: none;
+    color: #3879D9;
+}

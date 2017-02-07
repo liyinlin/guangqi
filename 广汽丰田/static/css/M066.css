@@ -1,0 +1,54 @@
+#M066 .main {
+	width: 100%;
+}
+.main p,
+.main a,
+.main input {
+	font-size: 24px;
+	color: #888;
+}
+#M066 .main p {
+	background: #f2f2f2;
+	padding: 0 20px;
+	line-height: 70px;
+	margin-top: 15px;
+}
+#M066 .main p a {
+	float: right;
+}
+#M066 form .top {
+	padding: 20px 20px 30px;
+	background: #f2f2f2;
+	margin: 15px 0;
+}
+#M066 form .top input {
+	display: block;
+	width: 600px;
+	height: 40px;
+	margin-bottom: 15px;
+	border: 1px solid #D2D2D2;
+	text-indent: 8px;
+}
+#M066 form textarea {
+	width: 580px;
+	height: 200px;
+	margin-left: 20px;
+	resize: none;
+	border: 1px solid #ededed;
+	padding: 10px;
+	font-size: 24px;
+}
+#M066 form a {
+	display: block;
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	margin: 40px 0 0 195px;
+	background: #d7000f;
+	border: 1px solid #d7000f;
+	font-size: 26px;
+	border-radius: 15px;
+}

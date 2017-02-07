@@ -1,0 +1,60 @@
+#M037-1 .main {
+    width: 100%;
+}
+#M037-1 .main p {
+    padding: 10px 20px;
+    overflow: hidden;
+    font-size: 20px;
+    color: #888;
+}
+#M037-1 .main p label {
+    float: left;
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+    line-height: 50px;
+    margin-right: 15px;
+    color: #888;
+}
+#M037-1 .main p input {
+    float: left;
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #D2D2D2;
+    text-indent: 8px;
+    font-size: 22px;
+}
+#M037-1 .main p input::-webkit-input-placeholder{
+    color: #888;
+}
+#M037-1 .main p:nth-child(1) {
+    margin-top: 15px;
+}
+#M037-1 .main p:nth-child(2) a {
+    float: right;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    background: #D0CDC8;
+    border: 1px solid #D2D2D2;
+    border-radius: 5px;
+    font-size: 22px;
+}
+#M037-1 .main .submit {
+    display: block;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 30px auto 195px;
+    background: #d7000f;
+    border: 1px solid #d7000f;
+    border-radius: 15px;
+    font-size:26px;
+}

@@ -1,0 +1,222 @@
+#M016 .main {
+	width: 100%;
+	padding-bottom: 80px;
+}
+#M016 .main .msg p	{
+	margin: 10px;
+}
+.main label,
+.main span,
+.main h4,
+.main p,
+.main a,
+.main strong {
+	font-size: 22px;
+	color: #333;
+}
+#M016 .main .msg {
+	border-bottom: 1px solid #d2d2d2;
+	padding: 10px;
+	margin-top: -10px;
+}
+#M016 .main .msg p {
+	overflow: hidden;
+}
+#M016 .main .msg a{
+    text-decoration: none;
+	margin: 10px;
+}
+#M016 .main .msg a>span{
+	float: left;
+	margin-left: 10px;
+}
+#M016 .main .msg a>img{
+	width: 9px;
+	height: 16px;
+	margin: 10px;
+	float: right;
+}
+#M016 .main .msg p strong {
+	float: right;
+}
+#M016 .main .msg p span.ft16 {
+	font-size: 16px;
+}
+.main .topBr {
+	margin-top: 10px;
+	clear: both
+}
+
+.main .OrderInfo {
+	width: 100%;
+}
+
+.main .OrderInfo .OrderInfoPic {
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	float: left;
+	width: 120px;
+}
+
+.main .OrderInfo .OrderInfoPic>img {
+	width: 120px;
+	height: 120px;
+	text-decoration: none;
+	display: block;
+	overflow: hidden;
+}
+
+.main .OrderInfo .OrderInfoContent {
+	margin-top: 16px;
+	margin-bottom: 4px;
+	float: left;
+	width: 490px;
+	margin-left: 10px;
+}
+
+.main .OrderInfo .OrderInfoContent>p {
+	font-size: 20px;
+	height: 22px;
+	line-height: 22px;
+	color: #666666;
+	margin-top: 10px;
+}
+
+.main .OrderInfo .OrderInfoContent .ContentTitle {
+	font-size: 22px;
+	line-height: 28px;
+	color: #333;
+	margin-top: 0px;
+}
+
+.main .OrderInfo .OrderInfoContent .ContentPrice {
+	margin-left: 340px;
+	color: #666666;
+}
+
+.main .OrderNum>table {
+	border-collapse: collapse;
+	width: 96%;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 22px;
+}
+
+.main .OrderNum>table tr {
+	line-height: 42px;
+}
+
+.main .OrderNum>table tr td:nth-child(1) {
+	text-indent: 10px;
+	color: #888;
+	margin-top: 10px;
+}
+
+.main .OrderNum>table tr td:nth-child(2),
+.main .OrderNum>table tr td:nth-child(4){
+	width: 50px;
+	text-align: center;
+	border-left:1px solid #ededed;
+	border-top: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	font-size: 34px;
+	color: #888;
+}
+
+.main .OrderNum>table tr td:nth-child(3) {
+	text-align: center;
+	width: 100px;
+	border: 1px solid #EDEDED;
+	color:  #888;
+}
+.main .OrderNum>table tr td:nth-child(4){
+	border-right:1px solid #EDEDED;
+}
+.main .title {
+	font-size: 22px;
+	margin-left: 15px;
+	width: 100%;
+	height: 40px;
+	float: none;
+	padding-top: 10px;
+}
+#M016 .liuyan {
+	width: 100%;
+	border-bottom: 1px solid #ededed;
+}
+#M016 .liuyan p {
+	height: 60px;
+	line-height: 60px;
+	font-size: 22px;
+	margin: 5px 0;
+	background: #d7000f;
+	text-indent: 15px;
+	color:#fff;
+}
+#M016 .liuyan p>span{
+	color:#fff;
+}
+#M016 .jifen {
+	padding: 10px 20px;
+	border-bottom: 1px solid #ededed;
+	overflow: hidden;
+}
+#M016 .jifen input,
+#M016 .jifen p,
+#M016 .jifen img{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-indent: 20px;
+}
+#M016 .jifen input{
+	display: none;
+}
+#M016 .jifen input ,
+#M016 .jifen img {
+	width: 30px;
+	height: 30px;
+}
+#M016 .jifen p{
+	width: 565px;
+}
+#M016 .jifen p span {
+	float: right;
+}
+.main .Ordersubmit{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0px;
+}
+.main .Ordersubmit span{
+	display: block;
+}
+.main .Ordersubmit span:nth-child(1){
+	text-align: center;
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 26px;
+	color: #fff;
+	background: #d7000f;
+	border-radius: 15px;
+	margin: 10px auto 28px;
+}
+.main .Ordersubmit span:nth-child(2){
+	font-size: 24px;
+	text-align: center;
+	height: 26px;
+	line-height: 26px;
+	margin-bottom: 20px;
+	color: #d7000f;
+}
+.main .Ordersubmit>a {
+	display: block;
+	text-decoration:none;
+	color: #e50020;
+	text-align: center;
+}

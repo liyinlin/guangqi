@@ -1,0 +1,48 @@
+#M050 .main {
+	width: 100%;
+}
+#M050 .main p,
+#M050 .main span,
+#M050 .main h4 {
+	font-size: 24px;
+	color: #888;
+}
+a {
+	text-decoration: none;
+}
+#M050 .main p {
+	height: 70px;
+	line-height: 70px;
+	background: #f4f4f4;
+	padding: 0 30px;
+}
+#M050 .main p.top span {
+	float: right;
+}
+#M050 .main div img {
+	width: 150px;
+	height: 150px;
+	margin: 10px 240px;
+}
+#M050 .main div h4 {
+	text-align: center;
+}
+#M050 .main .main-con p > span {
+	float: right;
+	margin-right: 70px;
+	width: 300px;
+}
+#M050 .main .main-bottom p {
+	margin-top: 20px;
+}
+#M050 .main .main-bottom p:nth-child(1) > span {
+	float: right;
+	margin-right: 170px;
+	width: 200px;
+}
+#M050 .main .main-bottom p:nth-child(5) {
+	text-align: right;
+}
+#M050 .main p .money{
+	color: #d7000f;
+}

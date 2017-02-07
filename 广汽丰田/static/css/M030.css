@@ -1,0 +1,28 @@
+.main p,
+.main div{
+	width: 610px;
+	margin: 10px auto 0px;
+}
+.main .title{
+	font-size: 34px;
+	font-weight: bold;
+}
+.main .titles{
+	font-size: 30px;
+	color: #333;
+}
+.main .texts{
+	width: 610px;
+	font-size: 26px;
+	line-height: 40px;
+	overflow: hidden;
+	text-indent: 2em;
+	color: #888;
+}
+.main .text{
+	width: 610px;
+	font-size: 26px;
+	line-height: 40px;
+	overflow: hidden;
+	color: #888;
+}

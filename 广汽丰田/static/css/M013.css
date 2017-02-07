@@ -1,0 +1,205 @@
+#M013 .main .main-tup,
+#M013 .main .main-tup img{
+   width:100%;
+   height:320px;
+}
+#M013 .main .main-mingc{
+   width:100%;
+   height:60px;
+}
+#M013 .main .main-mingc span{
+    float:left;
+    height:60px;
+    line-height:60px;
+    color:#fff;
+   background-color: #666;
+}
+#M013 .main .main-mingc span:nth-child(1){
+    width:70%;
+    margin-right:20px;
+    text-indent:12px;
+}
+#M013 .main .main-mingc span:nth-child(2){
+    width:26.8%;
+    text-indent:12px;
+}
+#M013 .main .main-minghu{
+    width:100%;
+    height:60px;
+    height:60px;
+    line-height:60px;
+    color:#fff;
+    background-color: #666;
+    margin-top:6px;
+    text-indent:12px;
+}
+#M013 .main .main-minghi{
+    width:100%;
+    height:60px;
+    line-height:60px;
+    color:#333;
+    font-size:24px;
+    text-indent:12px;
+}
+#M013 .main .main-minghi select{
+    /*float:right;*/
+    /*margin-top:12px;
+    margin-right:20px;*/
+    width:610px;
+    height:100%;
+    outline: none;
+    border: none;
+    background-color:#fff;
+    text-indent:12px;
+    color:#000;
+    font-size:22px;
+    margin: 0 auto;
+}
+#M013 .main .main-minghi span img{
+    width:9px;
+    height:16px;
+    float:right;
+    margin-top:24px;
+    margin-right:12px;
+}
+#M013 .main .main-mingdai{
+    width:100%;
+    height:60px;
+    line-height:60px;
+    color:#fff;
+    font-size:26px;
+    text-align:center;
+    background-color:#d7000f;
+    border:1px solid #ededed;
+}
+#M013 .main .main-jis{
+    width:88%;
+    height:400px;
+    margin:60px auto;
+    border-top:1px solid #ededed;
+}
+#M013 .main .main-jis .main-jis-d1{
+    width:100%;
+    height:64px;
+    line-height:64px;
+}
+#M013 .main .main-jis .main-jis-d1 p,.d1-p1{
+    float:left;
+}
+#M013 .main .main-jis .main-jis-d1 .up{
+    width:20%;
+    text-align:center;
+    border-top:1px solid #fff;
+    border-left:1px solid #ededed;
+    border-bottom:1px solid #ededed;
+}
+#M013 .main .main-jis .main-jis-d1 .d1-p1,
+.main-jis-d1 .d1-p2,
+.main-jis-d1 .d1-p3{
+    width:78.9%;
+    height:64px;
+    border-right:1px solid #ededed;
+    border-left:1px solid #ededed;
+    border-bottom:1px solid #ededed;
+    border-top:1px solid #fff;
+}
+#M013 .main .main-jis .main-jis-d1 .d1-p1 select{
+    color:#666;
+    width:188px;
+    margin-left:20px;
+    height:50px;
+}
+#M013 .main .main-jis .main-jis-d1 .d1-p2 input{
+    color:#666;
+    width:188px;
+    height:40px;
+    margin-left:20px;
+    text-indent:12px;
+}
+#M013 .main .main-jis .main-jis-d1 .d1-p2 span{
+    color:#999;
+    margin-left:20px;
+}
+#M013 .main .main-jis .main-jis-d1 .d1-p3 span{
+    width:49.7%;
+    float:left;
+    text-align:center;
+    color:#d7000f;
+    display: block;
+    height: 100%;
+    font-size: 24px;
+}
+#M013 .main .main-jis .main-jis-d1 .d1-p3 span:nth-child(2){
+    border-left:1px solid #ededed;
+}
+#M013 .main .main-jis .main-jis-d1 .d1-p3 span.active{
+    color: #fff;
+    background: #d7000f;
+}
+#M013 .main .main-cann{
+    width: 100%;
+    overflow: hidden;
+}
+#M013 .main .main-cann span{
+    background-color:#d7000f;
+    color:#fff;
+    border:1px solid #ededed;
+    width:200px;
+    height:70px;
+    border-radius: 15px;
+    display:block;
+    margin:0px auto;
+    line-height:70px;
+    text-align:center;
+    font-size:28px;
+    margin-bottom:80px;
+}
+#M013 .main .main-mand{
+    width:100%;
+    height:70px;
+    background-color:#fff;
+    line-height:70px;
+    text-align:center;
+    color:#d7000f;
+    position: fixed;
+    bottom:0px;
+    font-size: 24px;
+}
+#M013 input,#M013 select{
+    border:  1px solid #ededed;
+    outline: none;
+}
+.sf_area{
+    width: 380px;
+    height: 64px;
+    overflow: hidden;
+    margin-left: 20px;
+    font-size: 22px;
+    color: #888;
+}
+.sf_area>input,
+.sf_area>span{
+    float: left;
+    display: block;
+}
+.sf_area>input{
+    width: 100px;
+    height: 42px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.sf_area>img{
+    display:none;
+}
+.sf_area>img:nth-child(1){
+    width: 100%;
+    height:42px;
+    margin-top: 20px;
+}
+.sf_area>img:nth-child(2){
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top:7px;
+    left: 7%;
+}

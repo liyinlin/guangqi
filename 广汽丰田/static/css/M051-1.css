@@ -1,0 +1,85 @@
+#M051-1 .main {
+	width: 100%;
+	padding: 20px;
+	overflow: hidden;
+}
+#M051-1 .main label,
+#M051-1 .main input,
+#M051-1 .main select,
+#M051-1 .main a {
+	font-size: 22px;
+	color: #333;
+}
+#M051-1 .main p {
+	height: 60px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+#M051-1 .main label {
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+}
+#M051-1 .main input {
+	width: 470px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ededed;
+	text-indent: 8px;
+}
+#M051-1 .main input::-webkit-input-placeholder {
+	color: #333;
+}
+#M051-1 .main textarea::-webkit-input-placeholder {
+	color: #333;
+}
+#M051-1 .main select {
+	width: 470px;
+	height: 40px;
+	border: 1px solid #ededed;
+	text-indent: 8px;
+}
+#M051-1 .main p.textarea {
+	height: 200px;
+	font-family: "微软雅黑";
+	font-size: 22px;
+}
+#M051-1 .main p.textarea textarea {
+	width: 450px;
+	height: 160px;
+	outline: 0;
+	border: 1px solid #ededed;
+	resize: none;
+	padding: 10px;
+	font-size: 22px;
+}
+#M051-1 .main p.textarea label {
+	vertical-align: top;
+}
+#M051-1 .main p.submit{
+	height: 70px;
+	margin-top: 10px;
+}
+#M051-1 .main p.submit a {
+	display: block;
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	text-decoration: none;
+	background: #d7000f;
+	outline: 0;
+	border: 0;
+	font-size: 26px;
+	color: #fff;
+	margin: 0px auto;
+	border-radius: 15px;
+}
+#M051-1 .main .img {
+	margin-bottom: 10px;
+	margin-left: 120px;
+}
+#M051-1 .main .img img {
+	width: 470px;
+	height: 250px;
+}

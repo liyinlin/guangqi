@@ -1,0 +1,51 @@
+#M055-1 .main{
+  width: 100%;
+  margin: 88px auto 0;
+  font-size: 22px;
+  font-weight: normal;
+  color: #666666;
+}
+#M055-1 .main .list_info{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+}
+#M055-1 .main .list_info:nth-child(1){
+	margin-top: 0px;
+}
+#M055-1 .main .main-top{
+	display: block;
+	width: 610px;
+	height: 80px;
+	line-height: 80px;
+	background-color: #F1F0EE;
+	padding: 0 15px;
+	overflow: hidden;
+	border-bottom: 1px solid #CACACA;
+	font-size: 24px;
+}
+#M055-1 .main .main-con{
+	width: 610px;
+	background-color: #F1F0EE;
+	overflow: hidden;
+	padding: 20px 15px 50px 15px;
+}
+#M055-1 .main .main-con p{
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+#M055-1 .head,#M055-1 .con{
+	display: block;
+	width: 305px;
+	float: left;
+}
+#M055-1 .head{
+	text-align: left;
+}
+#M055-1 .con{
+	text-align: right;
+}
+.main-top .con{
+	color: #d7000f;
+}

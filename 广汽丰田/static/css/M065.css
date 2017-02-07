@@ -1,0 +1,131 @@
+#M065 .main {
+	width: 100%;
+}
+#M065 .main span,
+#M065 .main p,
+#M065 .main div,
+#M065 .main li {
+	font-size: 22px;
+	color: #888;
+}
+#M065 .main .top {
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #d7000f;
+	background: #f4f4f4;
+	font-size: 24px;
+}
+#M065 .main .address {
+	height: 60px;
+	line-height: 60px;
+	padding: 0 20px;
+	border-bottom: 1px solid #D2D2D2;
+}
+#M065 .main .address a {
+	float: right;
+	padding-left: 55px;
+	text-decoration: none;
+}
+#M065 .main .address a,
+#M065 .main .address a >img,
+#M065 .main .address a >img>span{
+	display: block;
+}
+#M065 .main .address a >img,
+#M065 .main .address a >span{
+	float: left;
+	color: #d7000f;
+}
+#M065 .main .address a >img{
+	width: 48px;
+	height: 44px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+#M065 .main .baoyang {
+	overflow: hidden;
+	border-bottom: 1px solid #D2D2D2;
+}
+#M065 .main .baoyang>div,
+#M065 .main .baoyang>a{
+	display: block;
+	text-decoration: none;
+	width: 49.5%;
+	overflow: hidden;
+}
+#M065 .main .baoyang .left {
+	float: left;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	border-right: 1px solid #D2D2D2;
+}
+#M065 .main .baoyang .left img{
+	width: 50px;
+	height: 50px;
+	overflow:hidden;
+	margin-right: 5px;
+	position: relative;
+	top: 14px;
+}
+#M065 .main .baoyang .left span {
+	height: 200px;
+	line-height:200px;
+	font-size: 26px;
+}
+#M065 .main .baoyang .right {
+	float: right;
+	height: 200px;
+	text-align: center;
+}
+#M065 .main .baoyang .right a {
+	display: block;
+	width: 100%;
+	height: 66px;
+	overflow: hidden;
+	text-decoration: none;
+}
+#M065 .main .baoyang .right a img{
+	width: 36px;
+	height: 36px;
+	overflow: hidden;
+	position: relative;
+	top:5px;
+}
+#M065 .main .baoyang .right a span {
+	height: 66px;
+	line-height: 66px;
+	margin-left: 5px;
+} 
+#M065 .main .baoyang .right a:nth-child(1),
+#M065 .main .baoyang .right a:nth-child(2) {
+	border-bottom: 1px solid #D2D2D2;
+}
+#M065 .main .list_wx{
+	width: 100%;
+	overflow: hidden;
+}
+#M065 .main .list_wx a{
+	display: block;
+	float: left;
+	width: 33%;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	border-bottom: 1px solid #D2D2D2;
+	border-right: 1px solid #D2D2D2;
+	text-decoration: none;
+}
+#M065 .main .list_wx a>span{
+	height: 150px;
+	line-height: 150px;
+}
+#M065 .main .list_wx a>img{
+	width: 36px;
+	height: 36px;
+	margin-right: 5px;
+	position: relative;
+	top:6px;
+}

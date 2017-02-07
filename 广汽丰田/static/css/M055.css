@@ -1,0 +1,58 @@
+#M055 .main{
+  width: 100%;
+  margin: 88px auto 25px auto;
+  font-size: 22px;
+  font-weight: normal;
+  color: #666666;
+}
+#M055 .main .main-top{
+	display: block;
+	width: 610px;
+	height: 80px;
+	line-height: 80px;
+	background-color: #F1F0EE;
+	text-align: right;
+	padding: 0 15px;
+}
+#M055 .main .con{
+	width: 100%;
+	height: 150px;
+	border-bottom: 1px solid #CACACA;
+	margin-top: 30px;
+	position: relative;
+}
+#M055 .main .con ul{
+	width: 300px;
+	height: 120px;
+	float: left;
+	margin-left: 15px;
+}
+#M055 .main .con ul li{
+	display: block;
+	line-height: 40px;
+	height: 40px;
+}
+#M055 .main .con ul .li1{
+	font-size: 24px;
+}
+#M055 .main .con .price{
+	height: 80px;
+	line-height: 80px;
+	font-size: 26px;
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+#M055 .main .con .details{
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	color: #d7000f;
+	text-decoration: none;
+	position: absolute;
+	top: 80px;
+	right: 15px;
+}
+.main-top>span{
+	color:#d7000f;
+}

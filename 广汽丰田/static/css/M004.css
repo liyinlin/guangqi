@@ -1,0 +1,228 @@
+#M004 .main #form1 .br {
+	border-top: 1px solid #d2d2d2;
+	clear: both
+}
+
+#M004 .main .topBr {
+	margin-top: 10px;
+	clear: both
+}
+
+#M004 .main .OrderInfo {
+	width: 100%;
+}
+
+#M004 .main .OrderInfo .OrderInfoPic {
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	float: left;
+	width: 120px;
+}
+
+#M004 .main .OrderInfo .OrderInfoPic>img {
+	width: 120px;
+	height: 120px;
+	text-decoration: none;
+	display: block;
+	overflow: hidden;
+}
+
+#M004 .main .OrderInfo .OrderInfoContent {
+	margin-top: 16px;
+	margin-bottom: 4px;
+	float: left;
+	width: 490px;
+	margin-left: 10px;
+}
+
+#M004 .main .OrderInfo .OrderInfoContent>p {
+	font-size: 20px;
+	height: 22px;
+	line-height: 22px;
+	color: #666666;
+	margin-top: 10px;
+}
+
+#M004 .main .OrderInfo .OrderInfoContent .ContentTitle {
+	font-size: 22px;
+	line-height: 28px;
+	color: #333;
+	margin-top: 0px;
+}
+
+#M004 .main .OrderInfo .OrderInfoContent .ContentPrice {
+	margin-left: 340px;
+	color: #666666;
+}
+#M004 .main .OrderNum{
+	margin-top: 10px;
+}
+#M004 .main .OrderNum>table {
+	border-collapse: collapse;
+	width: 96%;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 22px;
+}
+
+#M004 .main .OrderNum>table tr {
+	line-height: 42px;
+}
+#M004 .main .OrderNum>table tr>td{
+	color: #888;
+}
+#M004 .main .OrderNum>table tr td:nth-child(1) {
+	text-indent: 10px;
+}
+
+#M004 .main .OrderNum>table tr td:nth-child(2),
+#M004 .main .OrderNum>table tr td:nth-child(4){
+	width: 50px;
+	text-align: center;
+	border-left:1px solid #ededed;
+	border-top: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	font-size: 34px;
+	color: #888;
+}
+
+#M004 .main .OrderNum>table tr td:nth-child(3) {
+	text-align: center;
+	width: 100px;
+	border: 1px solid #EDEDED;
+	color:  #888;
+}
+#M004 .main .OrderNum>table tr td:nth-child(4){
+	border-right:1px solid #EDEDED;
+}
+#M004 .main .title {
+	font-size: 22px;
+	margin-left: 15px;
+	width: 100%;
+	height: 40px;
+	float: none;
+	padding-top: 10px;
+}
+
+#M004 .main .OrderParts {
+	width: 100%;
+	font-size: 20px;
+}
+
+#M004 .main .OrderParts img {
+	width: 100%;
+	height: 100px;
+	text-decoration: none;
+	display: block;
+	overflow: hidden;
+}
+
+#M004 .main .OrderParts .OrderPartsGroup {
+	width: 100%;
+	margin: 10px auto 0px;
+}
+
+#M004 .main .OrderParts .OrderPartsGroup .OrderPartsInfo {
+	width: 25%;
+	float: left;
+}
+#M004 .main .OrderParts .OrderPartsGroup .OrderPartsInfo>a{
+	display: block;
+	width: 150px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-decoration: none;
+}
+#M004 .main .OrderParts .OrderPartsGroup .OrderPartsInfo>a>span,
+#M004 .main .OrderParts .OrderPartsGroup .OrderPartsInfo>a>img{
+	display: block;
+	margin: 0 auto;
+}
+#M004 .main .OrderParts .OrderPartsGroup .OrderPartsInfo>a>span:nth-child(2){
+	font-size: 20px;
+	line-height: 26px;
+	color: #333;
+	margin-top: 4px;
+}
+#M004 .main .OrderParts .OrderPartsGroup .OrderPartsInfo>a>span:nth-child(3){
+	font-size: 18px;
+	color: #e50020;
+}
+#M004 .main .OrderPreferential {
+	font-size: 22px;
+	width: 100%;
+	padding-bottom: 154px;
+}
+
+#M004 .main .OrderPreferential>span {
+	font-size: 20px;
+	width: 100%;
+	line-height: 45px;
+	margin-left: 20px;
+}
+
+#M004 .main .OrderPreferential span input {
+	width: 18px;
+	height: 18px;
+}
+
+#M004 .main .OrderPreferential>span>span:nth-child(2) {
+	margin-left: 20px;
+}
+
+#M004 .main .OrderPreferential .jifenSpan span:nth-child(3) {
+	margin-left: 170px;
+	font-size: 20px;
+}
+
+#M004 .main .OrderPreferential .jifenSpan span:nth-child(4) {
+	margin-left: 70px;
+	font-size: 20px;
+}
+
+#M004 .main .OrderPreferential .youhuiSpan span:nth-child(3) {
+	margin-left: 270px;
+	font-size: 20px;
+}
+#M004 .main .Ordersubmit{
+	width: 100%;
+    background: #fff;
+    overflow: hidden;
+    position: fixed;
+	bottom: 0px;
+}
+#M004 .main .Ordersubmit span{
+	display: block;
+}
+#M004 .main .Ordersubmit span:nth-child(1){
+	text-align: center;
+	width: 400px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 28px;
+	color: #fff;
+	background: #d7000f;
+	border-radius: 15px;
+	margin: 10px auto 28px;
+}
+#M004 .main .Ordersubmit span:nth-child(2){
+	font-size: 24px;
+	text-align: center;
+	height: 26px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+#M004 .main .Ordersubmit>a {
+	display: block;
+    text-decoration:none;
+    color: #e50020;
+    text-align: center;
+}
+.jifenSpan img,
+.youhuiSpan img{
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+	margin-top: -6px;
+}

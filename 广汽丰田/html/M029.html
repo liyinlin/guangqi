@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M029</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="../static/lib/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../static/lib/css/swiper.min.css">
+    <link rel="stylesheet" href="../static/lib/css/base.css">
+    <script type="text/javascript" src="../static/lib/js/base.js"></script>
+    <link rel="stylesheet" href="../static/css/M029.css">
+</head>
+<body>
+<div class="wrap" id="M029">
+    <!--头部start-->
+    <div class="header">
+        <a href="###" class="left"><img src="../static/lib/images/icon-left.png" alt=""></a>
+        <div>订单详情</div>
+    </div>
+    <!--内容部分start-->
+    <div class="main">
+         <div class="topbu">
+             <p class="topbu-p1"><span>您已成功定制</span>2016新款雷凌双擎3.5四驱豪华版,您可以到“经销店点名名称”提车</p>
+             <div class="topbu-div1">
+                 <img src="../static/images/M029/M001-2.jpg" alt="">
+                 <img src="../static/images/M029/M001-1.jpg" alt="">
+                 <img src="../static/images/M029/M001-3.jpg" alt="">
+                 <img src="../static/images/M029/M021-0.jpg" alt="">
+                 <img src="../static/images/M029/M021-1.jpg" alt="">
+                 <img src="../static/images/M029/M021-2.jpg" alt="">
+             </div>
+             <ol class="topbu-ol">
+                 <li class="atate">
+                     <p>定制项1</p>
+                     <p>展示</p>
+                 </li>
+                 <li>
+                     <p>定制项2</p>
+                     <p>展示</p>
+                 </li>
+                 <li>
+                     <p>定制项3</p>
+                     <p>展示</p>
+                 </li>
+                 <li>
+                     <p>定制项4</p>
+                     <p>展示</p>
+                 </li>
+                 <li>
+                     <p>定制项5</p>
+                     <p>展示</p>
+                 </li>
+                 <li>
+                     <p>定制项6</p>
+                     <p>展示</p>
+                 </li>
+             </ol>
+            <div class="dingd">
+                <p class="dp1">订单编号:<span>123244567896570512838940596</span></p>
+                <p class="dp2">创建订单时间:<span>2016-9-02</span></p>
+                <p class="dp3">订单付款时间:<span>2016-9-02</span></p>
+            </div>
+         </div>
+         <div class="centerp">
+             <div>
+                 <img src="../static/images/M019/M019-twoCode.jpg" alt="">
+             </div>
+             <p>到点提车请出示此二维码</p>
+         </div>
+    </div>
+</div>
+     <script>
+         $(function(){
+            $('.topbu-ol li').click(function(){
+                var i=$(this).index();
+                $(this).addClass('atate').siblings().removeClass('atate');
+                $('.topbu-div1 img').eq(i).show().siblings().hide();
+            })
+         })
+     </script>
+</body>
+</html>

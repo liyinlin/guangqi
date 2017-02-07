@@ -1,0 +1,259 @@
+#M025 .main .title{
+    font-size: 22px;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
+#M025 .main .top_carInfo{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #ededed;
+}
+#M025 .main .top_carInfo>img,
+#M025 .main .top_carInfo>div,
+#M025 .main .top_carInfo>a{
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+#M025 .main .top_carInfo>img:nth-child(1){
+    width: 180px;
+    height: 140px;
+    margin-top: 10px;
+}
+#M025 .main .top_carInfo>div{
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 5px;
+}
+#M025 .main .top_carInfo>div>div:nth-child(1){
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 22px;
+    color: #333;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+#M025 .main .top_carInfo>div>div:nth-child(2),
+#M025 .main .top_carInfo>div>div:nth-child(3){
+    margin-top: 10px;
+}
+#M025 .main .top_carInfo>div>div:nth-child(2)>span,
+#M025 .main .top_carInfo>div>div:nth-child(2)>img{
+    vertical-align: middle;
+    font-size: 18px;
+    color: #ccc;
+}
+#M025 .main .top_carInfo>div>div:nth-child(2)>span:nth-child(3),
+#M025 .main .top_carInfo>div>div:nth-child(2)>img{
+    margin-left: 5px;
+}
+#M025 .main .top_carInfo>div>div:nth-child(3)>span,
+#M025 .main .top_carInfo>div>div:nth-child(3)>img{
+    vertical-align: middle;
+    font-size: 20px;
+    color: #666;
+}
+#M025 .main .top_carInfo>div>div:nth-child(3)>span:nth-child(2){
+    margin-left: 5px;
+}
+#M025 .main .top_carInfo>a{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#M025 .main .top_carInfo>a>img{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.swiper-container,
+.swiper-container .swiper-slide,
+#M025 .main .one_24activie{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+#M025 .main .one_24activie>img{
+     display: block;
+     width: 100%;
+     height: 200px;
+}
+#M025 .main .three_active>a{
+    height: 150px;
+    overflow: hidden;
+}
+#M025 .main .three_active>a>img{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+#M025 .main .five_active{
+    margin-top: 0px;
+}
+#M025 .main .requester_list{
+    width: 100%;
+    overflow: hidden;
+    background: #cacaca;
+    padding-bottom: 5px;
+}
+#M025 .main .requester_list>div{
+    width: 20%;
+    overflow: hidden;
+    float: left;
+}
+#M025 .main .requester_list>div>div{
+    width: 60px;
+    height: 60px;
+    margin:10px auto 0px;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#M025 .main .requester_list>div>div>img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin:5px auto 0px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#M025 .main .requester_list>div>p{
+    width: 100%;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    height: 20px;
+    line-height:20px;
+    margin-top: 10px;
+}
+#M025 .main .requester_list>div>a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    background: #fff;
+    text-decoration: none;
+    overflow: hidden;
+}
+#M025 .main .requester_list>div>a>span{
+    width: 100px;
+    display: block;
+    font-size: 16px;
+    color:#333;
+    height: 30px;
+    background:#cacaca;
+    margin:3px auto 0px;
+    border-radius: 8px;
+    line-height: 30px;
+    text-align: center;
+}
+#M025 .main .requester_list>div:nth-child(1)>a>span,
+#M025 .main .requester_list>div:nth-child(2)>a>span,
+#M025 .main .requester_list>div:nth-child(3)>a>span{
+    background:#e50020;
+    color: #fff;
+}
+#M025 .tips{
+    width: 480px;
+    overflow: hidden;
+    position: fixed;
+    top:180px;
+    left: 50%;
+    margin-left: -240px;
+    border: 1px solid #333;
+    background: #fff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    display: none;
+}
+#M025 .tips>img{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    width: 35px;
+    height: 35px;
+}
+#M025 .content_tips{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#M025 .content_tips>div{
+    width: 380px;
+    height: 50px;
+    border: 1px solid #666;
+    margin: 20px auto 0px;
+}
+#M025 .content_tips>div>label,
+#M025 .content_tips>div>input{
+    float: left;
+    display: block;
+    font-size: 22px;
+    overflow: hidden;
+    line-height: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+#M025 .content_tips>div>label{
+    width:80px;
+    text-align: center;
+}
+#M025 .content_tips>div>input{
+    width: 285px;
+}
+.button_tips{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+.button_tips>input{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    background: #e50020;
+    border-radius: 10px;
+    color: #fff;
+    float: left;
+}
+.button_tips>input:nth-child(1){
+    margin-left: 80px;
+}
+.button_tips>input:nth-child(2){
+    margin-left: 20px;
+}
+.two_active,
+.three_active{
+   margin-top: 0px;
+}
+.xinren{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    padding-bottom: 8px;
+}
+.xinren>span{
+    float: left;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #666;
+    border: 1px solid #EDEDED;
+    border-radius: 21px;
+    line-height: 21px;
+}
+.xx_img{
+    float: none;
+}
+

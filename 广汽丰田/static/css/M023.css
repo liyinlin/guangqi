@@ -1,0 +1,81 @@
+#M023 .main {
+	width: 100%;
+	color: #333;
+}
+#M023 .main input{
+	color: #666;
+}
+#M023 .main p {
+	height: 80px;
+}
+#M023 .main p label {
+	float: left;
+	line-height: 80px;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#M023 .main p span {
+	float: left;
+	font-size: 22px;
+	line-height: 80px;
+	margin-left: 5px;
+	color: #888;
+	margin-left: 5px;
+}
+#M023 .main p label.w {
+	width: 150px;
+}
+#M023 .main p input,
+#M023 .main p select {
+	float: left;
+	width: 450px;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 1px solid #d2d2d2;
+	margin-left: 20px;
+	font-size: 22px;
+	margin-top: 18px;
+}
+#M023 .main p label {
+	width: 100px;
+}
+#M023 .main p label.w {
+	width: 150px;
+}
+#M023 .main p select.w {
+	width: 400px;
+}
+#M023 .main p .radio{
+	float: left;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	margin-top:27.5px;
+	margin-left: 20px;
+}
+#M023 .main p input.radio {
+	float: left;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	position: relative;
+	top:8px;
+	display: none;
+}
+#M023 .main .btn {
+	display: block;
+	width: 250px;
+	height: 60px;
+	line-height: 60px;
+	margin-left: 195px;
+	text-align: center;
+	color: #fff;
+	background: #d7000f;
+	border: 0;
+	font-size: 28px;
+	margin-top: 60px;
+	text-decoration: none;
+	border-radius: 15px;
+}

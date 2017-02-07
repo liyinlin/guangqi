@@ -1,0 +1,110 @@
+.info{
+    width: 610px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #f4f4f4;
+    padding-bottom: 20px;
+}
+.info>div{
+    overflow: hidden;
+}
+.price{
+    width: 100%;
+    font-size: 20px;
+    height:32px;
+    line-height: 32px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+.price>span{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.name{
+    font-size: 20px;
+    line-height: 30px;
+    width: 590px;
+    margin: 30px auto 0px;
+    color: #666;
+}
+.address{
+    width: 610px;
+    background: #f4f4f4;
+    line-height: 40px;
+    font-size: 22px;
+    color: #666;
+    margin: 10px auto 0px;
+    text-indent: 10px;
+}
+.fz{
+    width: 610px;
+    line-height: 50px;
+    font-size: 26px;
+    color: #666;
+    margin: 10px auto 0px;
+    text-indent: 10px;
+}
+.fs{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #ededed;
+    overflow: hidden;
+}
+.fs>div{
+    font-size: 24px;
+}
+.bt{
+    border-bottom: 1px solid #ededed;
+}
+.fs>div:nth-child(1){
+    float: left;
+    margin-left: 15px;
+    height: 40px;
+    margin-top: 20px;
+}
+.fs>div:nth-child(1)>img{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+.fs>div:nth-child(2){
+    float: right;
+    margin-right: 15px;
+}
+.fs>div:nth-child(2)>span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    /*border: 1px solid #888;*/
+    border-radius: 50%;
+    margin-top:24px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.fs>div:nth-child(2)>input{
+    position: fixed;
+    right: -200px;
+}
+.main{
+    padding-bottom: 70px;
+}
+.qr{
+    display: block;
+    text-decoration: none;
+    width: 350px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 26px;
+    background: #d7000f;
+    color: #fff;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 15px;
+}
+.qr>span{
+    font-size: 22px;
+}

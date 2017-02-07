@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>M016</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript" src="../static/lib/js/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../static/lib/css/base.css">
+		<script type="text/javascript" src="../static/lib/js/base.js"></script>
+		<link rel="stylesheet" type="text/css" href="../static/css/M016.css" />
+	</head>
+	<body>
+		<div class="wrap" id="M016">
+			<!--头部-start-->
+			<div class="header">
+				<a href="###" class="left"><img src="../static/lib/images/icon-left.png" alt=""></a>
+				<div>订单详情</div>
+			</div>
+			<!--头部-end-->
+			<!--内容部分-start-->
+			<div class="main">
+				<div class="msg">
+					<p>购买人姓名：
+						<span>张某某</span>
+						<strong>18900070098</strong>
+					</p>
+					<a href="M017.html">
+						<span>收货地址:</span>
+						<span class="ft16">北京市朝阳区酒仙桥北路恒通国际商务元36</span>
+						<img src="../static/lib/images/icon-right.png"/>
+					</a>
+				</div>
+				<div class="OrderInfo">
+					<div class="OrderInfoPic">
+						<img src="../static/images/M001/M001-9.jpg" />
+					</div>
+					<div class="OrderInfoContent">
+						<p class="ContentTitle">2016新款雷凌双氢3.5L四驱豪华导航版首发定金</p>
+						<p><label>颜色：</label>&nbsp;<span>红色</span>&nbsp;&nbsp;&nbsp;<label>车型：</label><span>3.5G豪华版导航版</span></p>
+						<p><label>厂商指导价：</label>&nbsp;<span>21~43万</span></p>
+						<p class="ContentPrice"><span>5400元</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>X</span><span>1</span></p>
+					</div>
+				</div>
+				<div class="OrderNum">
+					<table>
+						<tr>
+							<td>购买数量</td>
+							<td>－</td>
+							<td>1</td>
+							<td>＋</td>
+						</tr>
+					</table>
+				</div>
+				<div class="liuyan">
+					<p>卖家留言：
+						<span>地址为经常去的4s店</span>
+					</p>
+				</div>
+				<div class="jifen">
+					<img class="radio" src="../static/lib/images/radio.png" alt="">
+					<input type="radio" />
+					<p>可用积分
+						<span>50000积分</span>
+					</p>
+				</div>
+				<div class="Ordersubmit">
+					<a href="###">
+						<span>去支付</span>
+						<span>(合计：35000积分)</span>
+					</a>
+				</div>
+			</div>
+			<!--内容部分-end-->
+		</div>
+	   <script type="text/javascript">
+		   $(".radio").click(function () {
+			   if($(this).attr("src")=="../static/lib/images/radio_active.png"){
+				   $(this).attr("src","../static/lib/images/radio.png");
+			   }else{
+				   $(this).attr("src","../static/lib/images/radio_active.png");
+			   }
+		   });
+		   $(".OrderNum>table tr td:nth-child(2)").click(function () {
+			   var i=parseInt($(this).next().html());
+			   if(i>0){
+				   i--;
+			   }else{
+				   i=0;
+			   }
+			   $(this).next().html(i);
+		   });
+		   $(".OrderNum>table tr td:nth-child(4)").click(function () {
+			   var i=parseInt($(this).prev().html());
+			   if(i<=99){
+				   i++;
+			   }else{
+				   i=99;
+			   }
+			   $(this).prev().html(i);
+		   });
+	   </script>
+	</body>
+</html>

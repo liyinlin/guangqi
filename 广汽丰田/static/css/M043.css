@@ -1,0 +1,92 @@
+#M043 .main {
+	width: 100%;
+}
+#M043 .main p,
+#M043 .main span,
+#M043 .main strong {
+	font-size: 22px;
+	color: #333;
+}
+#M043 .main p.top {
+	text-align: right;
+	padding: 10px 20px;
+	font-size: 22px;
+	line-height: 40px;
+	color: #FC9712;
+}
+#M043 .main .box {
+	overflow: hidden;
+	padding: 20px;
+	background: #F0F0F0;
+}
+#M043 .main .box img {
+	float: left;
+	width: 120px;
+	height: 120px;
+	margin-right: 20px;
+}
+#M043 .main .box p span {
+	color: #666;
+}
+#M043 .main .box p strong {
+	float: right;
+	color: #666;
+}
+#M043 .main .box p a {
+	text-decoration: none;
+}
+#M043 .main .prograss {
+	padding: 20px;
+	background: #F0F0F0;
+	overflow: hidden;
+	margin-top: 15px;
+}
+#M043 .main .prograss li {
+	width: 470px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top:1px solid #888;
+	position: relative;
+	margin-left: 88px;
+}
+#M043 .main .prograss li:nth-child(1){
+	border-top: none;
+}
+#M043 .main .prograss li img {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	left: -50px;
+	margin-top: 4px;
+	z-index: 2;
+}
+#M043 .main .prograss li div {
+	font-size: 24px;
+	line-height: 40px;
+	color: #888;
+	z-index: 2;
+}
+#M043 .main .prograss li p {
+	font-size: 22px;
+	line-height: 40px;
+	z-index: 2;
+	color: #888;
+}
+#M043 .main .prograss li p span{
+	color: #888;
+}
+#M043 .main .prograss li.select div,
+#M043 .main .prograss li.select p span{
+	color: #07a816;
+}
+#M043 .main .prograss .kd{
+	width: 1px;
+	height: 102%;
+	background: #888;
+	margin-top: -80px;
+	position: absolute;
+	left: -35px;
+	top:0px;
+	padding: 0px;
+	z-index: 1;
+}
